@@ -52,7 +52,7 @@
                                 <i class="_abp_text_center">TransportForge is a WooCommerce-based WordPress rental plugin that helps you manage property, equipment, availability, and bookings from a single unified dashboard. </i>
                             </div>
                             <div class="_panel_body_ov_initial">
-                                <div class="abptf_tabs tab_left">
+                                <div class="abp_tabs tab_left">
                                     <!-- LEFT MENU -->
                                     <ul class="_abp_bg_light tab_lists">
                                         <li data-tabs-target="#abptf_getting_start"><span class="_mar_r_xs">🚀</span>Getting Started</li>
