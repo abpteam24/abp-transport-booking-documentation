@@ -2,7 +2,7 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_properties">
+    <div class="tab_item" data-tabs="#abptb_properties">
         <h3 class="_abp_color_theme">🏠 Properties List</h3>
         <div class="_divider_xs"></div>
         <label>
@@ -80,7 +80,7 @@
             <li>👉 Optimized performance with pagination support</li>
         </ul>
         <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/property_list.png">
-            <img class="_img_control" src="#" alt="TransportForge Property List Overview">
+            <img class="_img_control" src="#" alt="Transport Booking Property List Overview">
         </div>
     </div>
 <?php

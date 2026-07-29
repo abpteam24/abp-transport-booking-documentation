@@ -2,8 +2,8 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-	<div class="tab_item" data-tabs="#abptf_client_form_global">
-		<h2 class="_abp_color_theme"><span class="_mar_r_xs">📋</span>TransportForge - Global Client Form Configuration </h2>
+	<div class="tab_item" data-tabs="#abptb_client_form_global">
+		<h2 class="_abp_color_theme"><span class="_mar_r_xs">📋</span>Transport Booking - Global Client Form Configuration </h2>
 		<div class="_divider_xs"></div>
 
 	</div>

@@ -2,7 +2,7 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_client_form">
+    <div class="tab_item" data-tabs="#abptb_client_form">
         <h2 class="_abp_color_theme">Client Forms Configuration</h2>
         <div class="_divider_xxs"></div>
         <label>

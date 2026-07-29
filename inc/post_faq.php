@@ -2,7 +2,7 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_faq">
+    <div class="tab_item" data-tabs="#abptb_faq">
         <h2 class="_abp_color_theme">FAQ Configuration</h2>
         <div class="_divider_xxs"></div>
         <label>

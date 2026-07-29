@@ -2,7 +2,7 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_create_order">
+    <div class="tab_item" data-tabs="#abptb_create_order">
         <h3 class="_abp_color_theme">➕ Add Order From Dashboard</h3>
         <div class="_divider_xs"></div>
         <label>
@@ -28,7 +28,7 @@
             This feature provides complete flexibility for rental businesses, allowing administrators to efficiently manage both online and offline bookings from a single centralized dashboard.
         </label>
         <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/add_order.png">
-            <img class="_img_control" src="#" alt="TransportForge Add Order Dashboard">
+            <img class="_img_control" src="#" alt="Transport Booking Add Order Dashboard">
         </div>
     </div>
 <?php

@@ -2,11 +2,11 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_feature">
-        <h3 class="_abp_color_theme">TransportForge - Features</h3>
+    <div class="tab_item" data-tabs="#abptb_feature">
+        <h3 class="_abp_color_theme">Transport Booking - Features</h3>
         <div class="_divider_xs"></div>
         <label>
-            TransportForge provides a powerful and flexible rental management system designed for managing properties, equipment, and bookings in a single platform. It includes all essential tools required for a complete rental business workflow. Below is an overview of the core features included in the plugin.
+            Transport Booking provides a powerful and flexible rental management system designed for managing properties, equipment, and bookings in a single platform. It includes all essential tools required for a complete rental business workflow. Below is an overview of the core features included in the plugin.
         </label>
         <ol class="_abp_list_margin">
             <li><strong class="_abp_color_theme">All-in-One Dashboard Menu</strong></li>

@@ -2,7 +2,7 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_date">
+    <div class="tab_item" data-tabs="#abptb_date">
         <h3 class="_abp_color_theme">Date Configuration</h3>
         <div class="_divider_xxs"></div>
         <label>

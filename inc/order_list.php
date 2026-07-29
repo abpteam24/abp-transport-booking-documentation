@@ -2,7 +2,7 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_orders">
+    <div class="tab_item" data-tabs="#abptb_orders">
         <h3 class="_abp_color_theme">📋 Orders List</h3>
         <div class="_divider_xs"></div>
         <label>
@@ -12,7 +12,7 @@
         </label>
         <h6 class="_abp">🔎 Advanced Order Filtering System</h6>
         <label>
-            TransportForge provides a powerful filtering system that allows you to quickly find specific orders based on multiple criteria.
+            Transport Booking provides a powerful filtering system that allows you to quickly find specific orders based on multiple criteria.
         </label>
         <ul class="_abp_list_margin_xs">
             <li>
@@ -80,7 +80,7 @@
             <li>👉 Easy order management with minimal effort</li>
         </ul>
         <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/order_list.png">
-            <img class="_img_control" src="#" alt="TransportForge Order List Overview">
+            <img class="_img_control" src="#" alt="Transport Booking Order List Overview">
         </div>
     </div>
 <?php

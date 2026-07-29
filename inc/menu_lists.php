@@ -2,14 +2,14 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_menu_lists">
-        <h3 class="_abp_color_theme">TransportForge - Menu</h3>
+    <div class="tab_item" data-tabs="#abptb_menu_lists">
+        <h3 class="_abp_color_theme">Transport Booking - Menu</h3>
         <div class="_divider_xs"></div>
         <label>
-            After installing TransportForge, you will get a dedicated admin dashboard menu that centralizes all rental management features in one place. You can customize the menu label and icon from the Icon & Label Configuration settings. All plugin modules are organized into structured tabs under this main menu, allowing you to manage bookings, properties, pricing, availability, inventory, orders, and system settings from a clean and user-friendly interface.
+            After installing Transport Booking, you will get a dedicated admin dashboard menu that centralizes all rental management features in one place. You can customize the menu label and icon from the Icon & Label Configuration settings. All plugin modules are organized into structured tabs under this main menu, allowing you to manage bookings, properties, pricing, availability, inventory, orders, and system settings from a clean and user-friendly interface.
         </label>
         <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/menu_lists.png">
-            <img class="_img_control" src="#" alt="TransportForge Menu Overview">
+            <img class="_img_control" src="#" alt="Transport Booking Menu Overview">
         </div>
         <ul class="_abp_list_margin">
             <li><strong class="_color_theme"><span class="_mar_r_xs">🪜</span> Top Quick Menu</strong></li>

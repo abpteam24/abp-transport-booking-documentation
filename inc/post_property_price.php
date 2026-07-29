@@ -2,7 +2,7 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_property_price">
+    <div class="tab_item" data-tabs="#abptb_property_price">
         <h3 class="_abp_color_theme">Properties and Price Configuration</h3>
         <div class="_divider_xs"></div>
         <label>

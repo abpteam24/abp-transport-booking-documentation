@@ -2,7 +2,7 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_quick_menu">
+    <div class="tab_item" data-tabs="#abptb_quick_menu">
         <h2 class="_abp_color_theme">🪜 Top Quick Menu</h2>
         <div class="_divider"></div>
         <label>

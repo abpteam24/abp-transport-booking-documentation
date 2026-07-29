@@ -2,10 +2,10 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_getting_start">
-        <h2 class="_abp_color_theme">TransportForge - Documentation  </h2>
+    <div class="tab_item" data-tabs="#abptb_getting_start">
+        <h2 class="_abp_color_theme">Transport Booking - Documentation  </h2>
         <div class="_divider_xs"></div>
-        <label>Thank you so much for choosing our plugin <strong class="_abp">TransportForge</strong>.</label>
+        <label>Thank you so much for choosing our plugin <strong class="_abp">Transport Booking</strong>.</label>
         <p>This documentation is designed to help you understand this plugin. Please carefully review the documentation to understand how this template is created and how to edit it properly. Basic knowledge of WordPress is required to use this plugin. </p>
         <div class="_divider"></div>
         <ol class="_abp_list_margin">

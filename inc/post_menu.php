@@ -2,11 +2,11 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptf_post">
-        <h2 class="_abp_color_theme">TransportForge - Post Lists</h2>
+    <div class="tab_item" data-tabs="#abptb_post">
+        <h2 class="_abp_color_theme">Transport Booking - Post Lists</h2>
         <div class="_divider_xs"></div>
         <label>
-            Here you can view all TransportForge posts in one place. You can easily create, clone, edit, restore, or delete posts. Each post includes a short summary, shortcode usage, total properties/tools count, status, and other important rental details for quick and efficient management.
+            Here you can view all Transport Booking posts in one place. You can easily create, clone, edit, restore, or delete posts. Each post includes a short summary, shortcode usage, total properties/tools count, status, and other important rental details for quick and efficient management.
         </label>
         <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/post_lists.png">
             <img class="_img_control" src="#" alt="Post Lists Overview">
