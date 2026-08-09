@@ -44,7 +44,7 @@
 			public function documentation() {
 				?>
                 <div class="abptb_area documentation">
-                    <div class="abptb_container">
+                    <div class="abp_container">
                         <div class="_abp_panel">
                             <!-- HEADER -->
                             <div class="_panel_head _fd_column">
