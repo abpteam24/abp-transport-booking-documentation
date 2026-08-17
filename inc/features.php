@@ -1,136 +1,235 @@
 <?php
-	if ( ! defined( 'ABSPATH' ) ) {
-		exit; // Exit if accessed directly
-	} ?>
+    if (!defined('ABSPATH')) {
+        exit; // Exit if accessed directly
+    } ?>
     <div class="tab_item" data-tabs="#abptb_feature">
-        <h3 class="_abp_color_theme">Transport Booking - Features</h3>
+        <h3 class="abp_color_theme">ABP Transport Booking - Features</h3>
         <div class="_divider_xs"></div>
         <label>
-            Transport Booking provides a powerful and flexible rental management system designed for managing properties, equipment, and bookings in a single platform. It includes all essential tools required for a complete rental business workflow. Below is an overview of the core features included in the plugin.
+            ABP Transport Booking provides a powerful and flexible passenger transport booking system designed for managing transports, routes, schedules, tickets, seats, bookings, and passengers from a single platform. It includes the essential tools required to manage modern bus, ferry, launch, shuttle, coach, van, minibus, and other passenger transport services.
         </label>
-        <ol class="_abp_list_margin">
-            <li><strong class="_abp_color_theme">All-in-One Dashboard Menu</strong></li>
-            <li><strong class="_abp_color_theme">Inventory Management System</strong></li>
-            <li><strong class="_abp_color_theme">Equipment & Property Management</strong></li>
-            <li><strong class="_abp_color_theme">Custom Order Tracking System</strong></li>
-            <li><strong class="_abp_color_theme">Property Schema Support</strong></li>
-            <li><strong class="_abp_color_theme">Developer-Friendly Architecture</strong></li>
-            <li><strong class="_abp_color_theme">Multi-Currency Support</strong></li>
-            <li><strong class="_abp_color_theme">Fully Responsive Design</strong></li>
-            <li><strong class="_abp_color_theme">Buffer Time Configuration</strong></li>
-            <li><strong class="_abp_color_theme">Flexible Date Configuration</strong></li>
-            <li><strong class="_abp_color_theme">Tax Configuration (WooCommerce Based)</strong></li>
-            <li><strong class="_abp_color_theme">Clone Property Feature</strong></li>
-            <li><strong class="_abp_color_theme">Clone Post Feature</strong></li>
-            <li><strong class="_abp_color_theme">Template System</strong></li>
-            <li><strong class="_abp_color_theme">Translation Ready</strong></li>
-            <li>
-                <strong class="_abp_color_theme">Shortcodes</strong>
-                <ul class="_abp">
-                    <li>- Post List Shortcode</li>
-                    <li>- Property List Shortcode</li>
+        <ol class="abp_list_margin">
+            <li><strong class="abp_color_theme">All-in-One Transport Booking Dashboard</strong></li>
+            <li><strong class="abp_color_theme">Transport Management System</strong>
+                <ul class="abp">
+                    <li>- Create, edit, clone, view, and delete transports</li>
+                    <li>- Manage transport information and configurations</li>
+                    <li>- Transport list with pagination</li>
+                    <li>- Related transport display</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Post Listings</strong>
-                <ul class="_abp">
-                    <li>Search functionality</li>
-                    <li>Category-based filtering</li>
-                    <li>Multiple layout styles</li>
+            <li><strong class="abp_color_theme">Route & Schedule Management</strong>
+                <ul class="abp">
+                    <li>- Route management</li>
+                    <li>- Boarding and drop-off stop management</li>
+                    <li>- Multiple pickup points</li>
+                    <li>- Multiple drop-off points</li>
+                    <li>- Boarding and drop-off stop types</li>
+                    <li>- Route direction configuration</li>
+                    <li>- Date-wise schedules</li>
+                    <li>- Travel time configuration</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Property Listings</strong>
-                <ul class="_abp">
-                    <li>Property search system</li>
-                    <li>Category-based filtering</li>
-                    <li>Booking rule selection</li>
-                    <li>Multiple layout styles</li>
+            <li><strong class="abp_color_theme">One-Way & Return Trip Booking</strong>
+                <ul class="abp">
+                    <li>- One-way trip booking</li>
+                    <li>- Return trip booking</li>
+                    <li>- Return booking using the same transport</li>
+                    <li>- Return route configuration</li>
+                    <li>- Return trip pricing and schedule configuration</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Multiple Pricing Options</strong>
-                <ul class="_abp">
-                    <li>- Hourly pricing</li>
-                    <li>- Daily pricing</li>
-                    <li>- Monthly pricing</li>
-                    <li>- Combined hourly & daily pricing</li>
-                    <li>- Combined monthly & daily pricing</li>
+            <li><strong class="abp_color_theme">Global Ticket Type Management</strong>
+                <ul class="abp">
+                    <li>- Create reusable ticket types</li>
+                    <li>- Assign ticket types to seat plans</li>
+                    <li>- Ticket name, color, icon/image, and prefix configuration</li>
+                    <li>- Reuse ticket types across multiple transports</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Smart Booking Rules</strong>
-                <ul class="_abp">
-                    <li>- Set minimum and maximum rental duration</li>
-                    <li>- Configure booking time restrictions</li>
-                    <li>- Define flexible rental rules</li>
+            <li><strong class="abp_color_theme">Reusable Seat Plan System</strong>
+                <ul class="abp">
+                    <li>- Create reusable global seat plans</li>
+                    <li>- Assign seat plans to multiple transports</li>
+                    <li>- Reuse the same seat plan multiple times within one transport</li>
+                    <li>- Multi-layer seat plan support</li>
+                    <li>- Clone, edit, view, and delete seat plans</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Advanced Deposit System</strong>
-                <ul class="_abp">
-                    <li>- Fixed amount deposit</li>
-                    <li>- Percentage-based deposit</li>
-                    <li>- Fixed amount per quantity</li>
+            <li><strong class="abp_color_theme">Advanced Seat Plan Designer</strong>
+                <ul class="abp">
+                    <li>- Drag-and-drop seat positioning</li>
+                    <li>- Automatic seat numbering</li>
+                    <li>- Custom seat labels and prefixes</li>
+                    <li>- Dynamic ticket type assignment</li>
+                    <li>- Custom seat cells and text</li>
+                    <li>- Flexible rows and columns</li>
+                    <li>- Adjustable cell dimensions</li>
+                    <li>- Adjustable spacing and gaps</li>
+                    <li>- Multiple layout configurations</li>
+                    <li>- Background and visual customization</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Quantity Control</strong>
-                <ul class="_abp">
-                    <li>- Minimum quantity (optional)</li>
-                    <li>- Maximum quantity (optional)</li>
-                    <li>- Reserved quantity support (optional)</li>
+            <li><strong class="abp_color_theme">Real-Time Seat Reservation</strong>
+                <ul class="abp">
+                    <li>- Display available seats</li>
+                    <li>- Display booked and sold seat status</li>
+                    <li>- Interactive seat selection</li>
+                    <li>- Ticket-type based seating</li>
+                    <li>- Multi-layer seat availability</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Availability Management</strong>
-                <ul class="_abp">
-                    <li>- Day-wise schedule control</li>
-                    <li>- Special date enable/disable system</li>
+            <li><strong class="abp_color_theme">Flexible Pricing & Quantity Control</strong>
+                <ul class="abp">
+                    <li>- Dynamic price calculation</li>
+                    <li>- Ticket and seat-based pricing</li>
+                    <li>- Minimum quantity configuration</li>
+                    <li>- Maximum quantity configuration</li>
+                    <li>- Reserved quantity support</li>
+                    <li>- Return trip pricing configuration</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">Availability Management</strong>
+                <ul class="abp">
+                    <li>- Date-wise availability</li>
+                    <li>- Schedule-based availability</li>
+                    <li>- Weekend availability controls</li>
+                    <li>- Special date configuration</li>
+                    <li>- Off-date configuration</li>
                     <li>- Availability override options</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Frontend Experience</strong>
-                <ul class="_abp">
-                    <li>- Dynamic price calculation</li>
-                    <li>- Simple and user-friendly booking interface</li>
-                    <li>- Shortcode-based property display</li>
+            <li><strong class="abp_color_theme">Passenger Information Forms</strong>
+                <ul class="abp">
+                    <li>- Global passenger forms</li>
+                    <li>- Transport-specific passenger forms</li>
+                    <li>- Custom passenger fields</li>
+                    <li>- Passenger information collection during booking</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Additional Services</strong>
-                <ul class="_abp">
-                    <li>- Global additional services system</li>
-                    <li>- Custom per-post services</li>
+            <li><strong class="abp_color_theme">Additional Services</strong>
+                <ul class="abp">
+                    <li>- Global additional services</li>
+                    <li>- Transport-specific services</li>
+                    <li>- Optional service selection</li>
+                    <li>- Service pricing</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">Client Information Forms</strong>
-                <ul class="_abp">
-                    <li>- Global form configuration</li>
-                    <li>- Custom per-post form builder</li>
+            <li><strong class="abp_color_theme">Global Reusable Configuration</strong>
+                <ul class="abp">
+                    <li>- Global ticket types</li>
+                    <li>- Global seat plans</li>
+                    <li>- Global stops</li>
+                    <li>- Global categories</li>
+                    <li>- Global organizers</li>
+                    <li>- Global brands</li>
+                    <li>- Global features</li>
+                    <li>- Global additional services</li>
+                    <li>- Global passenger forms</li>
+                    <li>- Global FAQs</li>
+                    <li>- Global Terms & Conditions</li>
                 </ul>
             </li>
-            <li>
-                <strong class="_abp_color_theme">FAQ & Terms Support</strong>
-                <ul class="_abp">
-                    <li>- Global FAQ system</li>
-                    <li>- Custom FAQ per post</li>
-                    <li>- Fully editable Terms & Conditions</li>
+            <li><strong class="abp_color_theme">Global & Transport-Specific Configuration</strong>
+                <ul class="abp">
+                    <li>- Import global configuration</li>
+                    <li>- Customize imported configuration for individual transports</li>
+                    <li>- Global feature enable/disable controls</li>
                 </ul>
             </li>
-            <li><strong class="_abp_color_theme">Booking / Order Management</strong></li>
-            <li><strong class="_abp_color_theme">Export Booking List (PDF) - PRO</strong></li>
-            <li><strong class="_abp_color_theme">Export Booking List (CSV) - PRO</strong></li>
-            <li><strong class="_abp_color_theme">PDF Invoice Generation - PRO</strong></li>
-            <li><strong class="_abp_color_theme">Send Email with PDF Attachment - PRO</strong></li>
-            <li><strong class="_abp_color_theme">Resend Email with PDF - PRO</strong></li>
-            <li><strong class="_abp_color_theme">Backend Order Management - PRO</strong></li>
-<!--            <li><strong class="_abp_color_theme">Location Based Price and Stock Management - PRO</strong></li>-->
-<!--            <li><strong class="_abp_color_theme">Tier Pricing System - PRO</strong></li>-->
-<!--            <li><strong class="_abp_color_theme">Seasonal Pricing - PRO</strong></li>-->
-<!--            <li><strong class="_abp_color_theme">Early Bird Pricing - PRO</strong></li>-->
+            <li><strong class="abp_color_theme">Booking & Order Management</strong>
+                <ul class="abp">
+                    <li>- Filter bookings and orders</li>
+                    <li>- Paginated booking/order list</li>
+                    <li>- Detailed booking information</li>
+                    <li>- Passenger information</li>
+                    <li>- Ticket and seat information</li>
+                    <li>- Order cancellation</li>
+                    <li>- WooCommerce order integration</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">Frontend Booking Experience</strong>
+                <ul class="abp">
+                    <li>- Transport listing pages</li>
+                    <li>- Search and filtering</li>
+                    <li>- Transport details</li>
+                    <li>- Route and stop information</li>
+                    <li>- Schedule information</li>
+                    <li>- Travel date selection</li>
+                    <li>- Return date selection</li>
+                    <li>- Ticket type selection</li>
+                    <li>- Seat selection</li>
+                    <li>- Passenger information</li>
+                    <li>- Additional service selection</li>
+                    <li>- Dynamic pricing</li>
+                    <li>- WooCommerce checkout</li>
+                    <li>- Responsive booking interface</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">FAQ & Terms and Conditions</strong>
+                <ul class="abp">
+                    <li>- Global FAQ configuration</li>
+                    <li>- Transport-specific FAQ configuration</li>
+                    <li>- Global Terms & Conditions</li>
+                    <li>- Transport-specific Terms & Conditions</li>
+                    <li>- Import and customize global configuration</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">WooCommerce Integration</strong>
+                <ul class="abp">
+                    <li>- WooCommerce checkout integration</li>
+                    <li>- WooCommerce payment gateway support</li>
+                    <li>- WooCommerce order management</li>
+                    <li>- WooCommerce tax and coupon support</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">Transport Listings & Shortcodes</strong>
+                <ul class="abp">
+                    <li>- Transport listing shortcode</li>
+                    <li>- Booking shortcode</li>
+                    <li>- Transport gallery shortcode</li>
+                    <li>- Search and filtering</li>
+                    <li>- Multiple layout styles</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">Responsive & Translation Ready</strong>
+                <ul class="abp">
+                    <li>- Fully responsive frontend interface</li>
+                    <li>- Translation-ready</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">Multiple Trip Management - PRO</strong>
+                <ul class="abp">
+                    <li>- Same-day multiple trips</li>
+                    <li>- Day-wise multiple trips</li>
+                    <li>- Date-wise multiple trips</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">PDF Ticket & Invoice - PRO</strong></li>
+            <li><strong class="abp_color_theme">Booking List Export - PRO</strong>
+                <ul class="abp">
+                    <li>- PDF booking export</li>
+                    <li>- CSV booking export</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">QR Code Support - PRO</strong></li>
+            <li><strong class="abp_color_theme">Email Notifications with PDF Attachments - PRO</strong>
+                <ul class="abp">
+                    <li>- Email booking notifications</li>
+                    <li>- PDF ticket/invoice attachment</li>
+                    <li>- Resend email with PDF</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">Advanced Pricing & Discounts - PRO</strong>
+                <ul class="abp">
+                    <li>- Seasonal pricing and discounts</li>
+                    <li>- Early booking discounts</li>
+                </ul>
+            </li>
+            <li><strong class="abp_color_theme">Advanced Booking Management - PRO</strong></li>
+            <li><strong class="abp_color_theme">Additional Administrative Tools - PRO</strong></li>
+            <li><strong class="abp_color_theme">Premium Support - PRO</strong></li>
+            <li><strong class="abp_color_theme">Priority Updates & New Features - PRO</strong></li>
         </ol>
     </div>
 <?php

@@ -2,13 +2,13 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abptb_rental_forge">
-        <h2 class="_abp_color_theme">Transport Booking Configuration</h2>
+    <div class="tab_item" data-tabs="#abptb_common">
+        <h2 class="abp_color_theme_gap_xs">🚌Transport </h2>
         <div class="_divider"></div>
         <i class="_color_7_fs_label_mar_tb_d_block">
             Configure the core settings of Transport Booking from this section. These global options control dashboard labels, menu appearance, URLs, icons, and booking behavior across the entire plugin.
         </i>
-        <table class="_abp_fixed_text_left_mt">
+        <table class="abp_fixed_text_left_mt">
             <tbody>
             <tr>
                 <th class="_color_theme">Booked Status</th>
@@ -21,7 +21,7 @@
             <tr>
                 <th class="_color_theme">Slug</th>
                 <td colspan="3">
-                    Define a custom URL slug for Transport Booking pages. After updating the slug, refresh your permalinks by navigating to <strong class="_abp_color_theme">Settings → Permalinks</strong> and clicking the <strong>Save Changes</strong> button.
+                    Define a custom URL slug for Transport Booking pages. After updating the slug, refresh your permalinks by navigating to <strong class="abp_color_theme">Settings → Permalinks</strong> and clicking the <strong>Save Changes</strong> button.
                 </td>
             </tr>
             <tr>
@@ -39,11 +39,11 @@
             <tr>
                 <th class="_color_theme">Category Slug</th>
                 <td colspan="3">
-                    Set a custom URL slug for categories. After making changes, refresh your permalinks by navigating to <strong class="_abp_color_theme">Settings → Permalinks</strong> and clicking the <strong>Save Changes</strong> button.
+                    Set a custom URL slug for categories. After making changes, refresh your permalinks by navigating to <strong class="abp_color_theme">Settings → Permalinks</strong> and clicking the <strong>Save Changes</strong> button.
                 </td>
             </tr>
             </tbody>
         </table>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/configuration_rental_forge.png"><img class="_img_control" src="#" alt="Transport"></div>
+        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/configuration_rental_forge.png"><img class="_img_control" src="#" alt="Transport"></div>
     </div>
 <?php

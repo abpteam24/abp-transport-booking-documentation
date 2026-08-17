@@ -3,20 +3,20 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abptb_email">
-        <h2 class="_abp_color_theme">Configuration: E-Mail </h2>
-        <h2 class="_abp_color_theme"><span class="_mar_r_xs">📧</span>Transport Booking - E-Mail Configuration </h2>
+        <h2 class="abp_color_theme">Configuration: E-Mail </h2>
+        <h2 class="abp_color_theme"><span class="_mar_r_xs">📧</span>Transport Booking - E-Mail Configuration </h2>
         <div class="_divider"></div>
         <i class="_color_7_fs_label_mar_tb_d_block">These are customer E-Mail Configuration.</i>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.10.email.png"><img class="_img_control" src="#" alt="E-Mail"></div>
-        <table class="_abp_fixed_text_left_mt">
+        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/5.10.email.png"><img class="_img_control" src="#" alt="E-Mail"></div>
+        <table class="abp_fixed_text_left_mt">
             <tbody>
             <tr>
                 <th class="_color_theme">Send Mail ?</th>
-                <td colspan="3">Should you wish to mail a traveler Turn the light <strong class="_abp_color_theme"> ON</strong> . The mail won`t be sent if <strong class="_abp_color_theme"> OFF</strong> . By default, <strong class="_abp_color_theme"> ON</strong></td>
+                <td colspan="3">Should you wish to mail a traveler Turn the light <strong class="abp_color_theme"> ON</strong> . The mail won`t be sent if <strong class="abp_color_theme"> OFF</strong> . By default, <strong class="abp_color_theme"> ON</strong></td>
             </tr>
             <tr>
                 <th class="_color_theme">Send pdf Ticket ?</th>
-                <td colspan="3"> If you would like to email with PDF ticket, Turn <strong class="_abp_color_theme"> ON</strong> otherwise the PDF won`t be sent if <strong class="_abp_color_theme"> OFF</strong> . By default, <strong class="_abp_color_theme"> ON</strong></td>
+                <td colspan="3"> If you would like to email with PDF ticket, Turn <strong class="abp_color_theme"> ON</strong> otherwise the PDF won`t be sent if <strong class="abp_color_theme"> OFF</strong> . By default, <strong class="abp_color_theme"> ON</strong></td>
                 <td colspan="3"> If You want to send pdf ticket mail to traveller Switch ON otherwise pdf not send . Default ON</td>
             </tr>
             <tr>

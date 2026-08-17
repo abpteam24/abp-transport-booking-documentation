@@ -3,12 +3,12 @@
 		exit; // Exit if accessed directly
 	} ?>
 	<div class="tab_item" data-tabs="#abptb_contact">
-		<h2 class="_abp_color_theme">Configuration: Contact Information </h2>
-        <h2 class="_abp_color_theme"><span class="_mar_r_xs">☎️ </span>Transport Booking - Contact Information Configuration </h2>
+		<h2 class="abp_color_theme">Configuration: Contact Information </h2>
+        <h2 class="abp_color_theme"><span class="_mar_r_xs">☎️ </span>Transport Booking - Contact Information Configuration </h2>
 		<div class="_divider"></div>
 		<i class="_color_7_fs_label_mar_tb_d_block">These are describe Contact Information Configuration .</i>
-		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.12.contact_info.png"><img class="_img_control" src="#" alt="Contact Information "></div>
-		<table class="_abp_fixed_text_left_mt">
+		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/5.12.contact_info.png"><img class="_img_control" src="#" alt="Contact Information "></div>
+		<table class="abp_fixed_text_left_mt">
 			<tbody>
 			<tr>
 				<th class="_color_theme">Company Name</th>

@@ -3,7 +3,7 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abptb_create_order">
-        <h3 class="_abp_color_theme">➕ Add Order From Dashboard</h3>
+        <h3 class="abp_color_theme">➕ Add Order From Dashboard</h3>
         <div class="_divider_xs"></div>
         <label>
             The Add Order feature allows administrators to create rental orders directly from the dashboard without requiring customers to complete the checkout process. This is ideal for phone bookings, walk-in customers, offline reservations, and custom rental arrangements.
@@ -13,7 +13,7 @@
             Using the same booking experience available on the frontend, administrators can easily select rental items, choose pickup and return dates and times, configure booking details, and generate orders within a few clicks.
         </label>
         <div class="_divider_xs"></div>
-        <ul class="_abp">
+        <ul class="abp">
             <li>Create rental orders directly from the admin dashboard.</li>
             <li>No online payment is required to create an order.</li>
             <li>Select any available rental item or listing with ease.</li>
@@ -27,7 +27,7 @@
         <label>
             This feature provides complete flexibility for rental businesses, allowing administrators to efficiently manage both online and offline bookings from a single centralized dashboard.
         </label>
-        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/add_order.png">
+        <div class="abp_image" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/add_order.png">
             <img class="_img_control" src="#" alt="Transport Booking Add Order Dashboard">
         </div>
     </div>
