@@ -1,83 +1,77 @@
 <?php
-	if ( ! defined( 'ABSPATH' ) ) {
-		exit; // Exit if accessed directly
-	} ?>
+    if (!defined('ABSPATH')) {
+        exit; // Exit if accessed directly
+    } ?>
     <div class="tab_item" data-tabs="#abptb_email">
-        <h2 class="abp_color_theme">Configuration: E-Mail </h2>
-        <h2 class="abp_color_theme"><span class="_mar_r_xs">📧</span>Transport Booking - E-Mail Configuration </h2>
+        <h2 class="abp_color_theme_gap_xs">📧Transport Booking - E-Mail Configuration </h2>
         <div class="_divider"></div>
-        <i class="_color_7_fs_label_mar_tb_d_block">These are customer E-Mail Configuration.</i>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/5.10.email.png"><img class="_img_control" src="#" alt="E-Mail"></div>
+        <i class="_color_7_fs_label_mar_tb_d_block">Configure automated booking emails, PDF ticket attachments, email templates, order status triggers, and sender information.</i>
         <table class="abp_fixed_text_left_mt">
             <tbody>
             <tr>
                 <th class="_color_theme">Send Mail ?</th>
-                <td colspan="3">Should you wish to mail a traveler Turn the light <strong class="abp_color_theme"> ON</strong> . The mail won`t be sent if <strong class="abp_color_theme"> OFF</strong> . By default, <strong class="abp_color_theme"> ON</strong></td>
+                <td colspan="3">Enable or disable automated email notifications for bookings. Turn <strong class="abp_color_theme">ON</strong> to send booking emails, or turn <strong class="abp_color_theme">OFF</strong> to disable them. By default, this option is <strong class="abp_color_theme">ON</strong>.</td>
             </tr>
             <tr>
-                <th class="_color_theme">Send pdf Ticket ?</th>
-                <td colspan="3"> If you would like to email with PDF ticket, Turn <strong class="abp_color_theme"> ON</strong> otherwise the PDF won`t be sent if <strong class="abp_color_theme"> OFF</strong> . By default, <strong class="abp_color_theme"> ON</strong></td>
-                <td colspan="3"> If You want to send pdf ticket mail to traveller Switch ON otherwise pdf not send . Default ON</td>
+                <th class="_color_theme">Send PDF ?</th>
+                <td colspan="3">Choose whether the generated PDF ticket should be attached to the booking email. Turn <strong class="abp_color_theme">ON</strong> to attach the PDF ticket, or turn <strong class="abp_color_theme">OFF</strong> to send the email without the PDF attachment. By default, this option is <strong class="abp_color_theme">ON</strong>.</td>
             </tr>
             <tr>
-                <th class="_color_theme">Which status send Mail ?</th>
-                <td colspan="3">Please choose the order status for which the mail will be send.</td>
-            </tr>
-            <tr>
-                <th class="_color_theme">Mail Subject</th>
-                <td colspan="3">Add a subject to your email, please. Alternatively, your site title will be it.</td>
+                <th class="_color_theme">Target Order Statuses</th>
+                <td colspan="3">Select the order statuses that should trigger the automated booking email. Available statuses are <strong>Pending Payment</strong>, <strong>Processing</strong>, <strong>On Hold</strong>, <strong>Completed</strong>, <strong>Cancelled</strong>, <strong>Refunded</strong>, <strong>Failed</strong>, and <strong>Draft</strong>.</td>
             </tr>
             <tr>
                 <th class="_color_theme">Mail Content</th>
                 <td colspan="3">
-                    <span>Please use this shortcode for get real data.</span><br>
-                    <span><strong style="color:#e67c30">#post_name</strong> : In order to print the Transport Name.</span><br>
-                    <span><strong style="color:#e67c30">#client_name</strong> : In order to print the  Traveller Form.</span><br>
-                    <span><strong style="color:#e67c30">#order_id</strong> : In order to print the  Order ID.</span><br>
-                    <span><strong style="color:#e67c30">#pass_id</strong> : In order to print the Traveller ID.</span><br>
-                    <span><strong style="color:#e67c30">#from</strong> : In order to print the  Boarding.</span><br>
-                    <span><strong style="color:#e67c30">#to</strong> : In order to print the  Dropping.</span><br>
-                    <span><strong style="color:#e67c30">#order_date</strong> : In order to print the  Order Date.</span><br>
-                    <span><strong style="color:#e67c30">#status</strong> : In order to print the  Order Status.</span><br>
-                    <span><strong style="color:#e67c30">#payment</strong> : In order to print the  Payment Method.</span><br>
-                    <span><strong style="color:#e67c30">#booking_details</strong> : In order to print the  Booking Details.</span><br>
-                    <span><strong style="color:#e67c30">#rent_details</strong> : In order to print the  Ticket Details.</span><br>
-                    <span><strong style="color:#e67c30">#bill_info</strong> : In order to print the  Billing Information.</span><br>
-                    <span><strong style="color:#e67c30">#price_details</strong> : In order to print the  Total Price.</span><br>
+                    <span>Use the following shortcode to display actual booking data in the customer email.</span><br>
+                    <span><strong style="color:#e67c30">#post_name</strong> : Displays the Transport Name.</span><br>
+                    <span><strong style="color:#e67c30">#client_name</strong> : Displays the Customer/Traveller Name.</span><br>
+                    <span><strong style="color:#e67c30">#order_id</strong> : Displays the Order ID.</span><br>
+                    <span><strong style="color:#e67c30">#order_date</strong> : Displays the Order Date.</span><br>
+                    <span><strong style="color:#e67c30">#status</strong> : Displays the Order Status.</span><br>
+                    <span><strong style="color:#e67c30">#payment</strong> : Displays the Payment Method.</span><br>
+                    <span><strong style="color:#e67c30">#booking_details</strong> : Displays the Booking Details.</span><br>
+                    <span><strong style="color:#e67c30">#ticket_details</strong> : Displays the Ticket Details.</span><br>
+                    <span><strong style="color:#e67c30">#bill_info</strong> : Displays the Billing Information.</span><br>
+                    <span><strong style="color:#e67c30">#price_details</strong> : Displays the Total Price Details.</span><br>
+                    <span>When the email is sent, the plugin automatically replaces these shortcodes with the corresponding booking information.</span>
                 </td>
             </tr>
             <tr>
                 <th class="_color_theme">Re-send Mail Content</th>
                 <td colspan="3">
-                    <span>Please use this shortcode for get real data.</span><br>
-                    <span><strong style="color:#e67c30">#post_name</strong> : In order to print the  Transport Name.</span><br>
-                    <span><strong style="color:#e67c30">#client_name</strong> : In order to print the  Traveller Form.</span><br>
-                    <span><strong style="color:#e67c30">#order_id</strong> : In order to print the  Order ID.</span><br>
-                    <span><strong style="color:#e67c30">#pass_id</strong> : In order to print the  Traveller ID.</span><br>
-                    <span><strong style="color:#e67c30">#from</strong> : In order to print the  Boarding.</span><br>
-                    <span><strong style="color:#e67c30">#to</strong> : In order to print the  Dropping.</span><br>
-                    <span><strong style="color:#e67c30">#order_date</strong> : In order to print the  Order Date.</span><br>
-                    <span><strong style="color:#e67c30">#status</strong> : In order to print the  Order Status.</span><br>
-                    <span><strong style="color:#e67c30">#payment</strong> : In order to print the  Payment Method.</span><br>
-                    <span><strong style="color:#e67c30">#booking_details</strong> : In order to print the  Booking Details.</span><br>
-                    <span><strong style="color:#e67c30">#rent_details</strong> : In order to print the  Ticket Details.</span><br>
-                    <span><strong style="color:#e67c30">#bill_info</strong> : In order to print the  Billing Information.</span><br>
-                    <span><strong style="color:#e67c30">#price_details</strong> : In order to print the  Total Price.</span><br>
+                    <span>Use the following shortcode to display actual booking data when an existing booking email or ticket is sent again.</span><br>
+                    <span><strong style="color:#e67c30">#post_name</strong> : Displays the Transport Name.</span><br>
+                    <span><strong style="color:#e67c30">#client_name</strong> : Displays the Customer/Traveller Name.</span><br>
+                    <span><strong style="color:#e67c30">#order_id</strong> : Displays the Order ID.</span><br>
+                    <span><strong style="color:#e67c30">#order_date</strong> : Displays the Order Date.</span><br>
+                    <span><strong style="color:#e67c30">#status</strong> : Displays the Order Status.</span><br>
+                    <span><strong style="color:#e67c30">#payment</strong> : Displays the Payment Method.</span><br>
+                    <span><strong style="color:#e67c30">#booking_details</strong> : Displays the Booking Details.</span><br>
+                    <span><strong style="color:#e67c30">#ticket_details</strong> : Displays the Ticket Details.</span><br>
+                    <span><strong style="color:#e67c30">#bill_info</strong> : Displays the Billing Information.</span><br>
+                    <span><strong style="color:#e67c30">#price_details</strong> : Displays the Total Price Details.</span><br>
+                    <span>The plugin replaces these shortcodes with the corresponding booking information when the email is re-sent.</span>
                 </td>
             </tr>
             <tr>
-                <th class="_color_theme">Admin Notification Mail</th>
-                <td colspan="3">After an order is placed, if the admin would want to get a PDF ticket, please give a mail address.</td>
+                <th class="_color_theme">Mail Subject</th>
+                <td colspan="3">Enter a custom subject line for customer booking emails. If left blank, the site title will be used as the default email subject.</td>
+            </tr>
+            <tr>
+                <th class="_color_theme">Admin Notification Email</th>
+                <td colspan="3">Enter an email address where the administrator should receive a notification when a new booking/order is successfully placed. This can be used to receive a copy of the booking PDF ticket or booking notification.</td>
             </tr>
             <tr>
                 <th class="_color_theme">Mail From Name</th>
-                <td colspan="3"> The email from name should be added here. otherwise it will be Transportation</td>
+                <td colspan="3">Enter the sender name that should be displayed in outgoing booking emails. If left blank, the plugin will use the configured fallback/site information.</td>
             </tr>
             <tr>
-                <th class="_color_theme">Mail From Mail</th>
-                <td colspan="3"> The email from mail should be added here. otherwise it will be your admin mail.</td>
+                <th class="_color_theme">Mail From Email</th>
+                <td colspan="3">Enter the email address that should be used as the sender address for outgoing booking emails. Use a valid email address for reliable email delivery.</td>
             </tr>
             </tbody>
         </table>
+        <div class="_mar_tb" data-image-href="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/email.png"><img class="_img_control" src="#" alt="E-Mail"></div>
     </div>
 <?php

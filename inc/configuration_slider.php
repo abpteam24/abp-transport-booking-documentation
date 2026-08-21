@@ -6,7 +6,7 @@
         <h2 class="abp_color_theme"><span class="_mar_r_xs">🖼️</span>Transport Booking - Slider Configuration </h2>
 		<div class="_divider"></div>
 		<i class="_color_7_fs_label_mar_tb_d_block">These are describe Slider Configuration .</i>
-		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/5.13.slider.png"><img class="_img_control" src="#" alt="Slider"></div>
+
 		<table class="abp_fixed_text_left_mt">
 			<tbody>
 			<tr>
@@ -47,5 +47,6 @@
 			</tr>
 			</tbody>
 		</table>
+        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/slider.png"><img class="_img_control" src="#" alt="Slider"></div>
 	</div>
 <?php

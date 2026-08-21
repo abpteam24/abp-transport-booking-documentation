@@ -3,12 +3,11 @@
 		exit; // Exit if accessed directly
 	} ?>
 	<div class="tab_item" data-tabs="#abptb_css_value">
-		<h2 class="abp_color_theme">Configuration: CSS Value </h2>
-        <h2 class="abp_color_theme"><span class="_mar_r_xs">🎨</span>Transport Booking - CSS Value Configuration </h2>
+        <h2 class="abp_color_theme_gap_xs">🎨Transport Booking - CSS Value Configuration </h2>
 		<div class="_divider"></div>
 		<i class="_color_7_fs_label_mar_tb_d_block">These are describe CSS Value Configuration . </i>
 		<i class="_color_7_fs_label_mar_tb_d_block">Note: this value applicable only for Transport section area not full site. </i>
-		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/5.14.css_value.png"><img class="_img_control" src="#" alt="CSS Value "></div>
+
 		<table class="abp_fixed_text_left_mt">
 			<tbody>
 			<tr>
@@ -81,5 +80,6 @@
 			</tr>
 			</tbody>
 		</table>
+        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/css_value.png"><img class="_img_control" src="#" alt="CSS Value "></div>
 	</div>
 <?php

@@ -17,7 +17,23 @@
     if (!class_exists('ABPTB_Documentation')) {
         class ABPTB_Documentation {
             public function __construct() {
-                include_once(ABSPATH . 'wp-admin/includes/plugin.php');
+                add_action('admin_init', function () {
+                    if (!function_exists('is_plugin_active')) {
+                        require_once ABSPATH . 'wp-admin/includes/plugin.php';
+                    }
+                });
+                add_action(
+                    'before_woocommerce_init', // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
+                    function () {
+                        if (class_exists('\Automattic\WooCommerce\Utilities\FeaturesUtil')) {
+                            \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility(
+                                'custom_order_tables',
+                                __FILE__,
+                                true
+                            );
+                        }
+                    }
+                );
                 if (!defined('ABPTB_DOC_DIR')) {
                     define('ABPTB_DOC_DIR', dirname(__FILE__));
                 }
@@ -87,12 +103,13 @@
                                                 <li data-tabs-target="#abptb_date_global">📅 Dates</li>
                                                 <li data-tabs-target="#abptb_additional_global">💰Additional services</li>
                                                 <li data-tabs-target="#abptb_client_form_global">📋Client Form</li>
-                                                <li data-tabs-target="#abptb_tc_global">🤝T&C</li>
-                                                <li data-tabs-target="#abptb_faq_global">❓FAQ</li>
-                                                <li data-tabs-target="#abptb_category_global">🏘️Category</li>
+                                                <li data-tabs-target="#abptb_global_discount">✂️ Discount (PRO)</li>
                                                 <li data-tabs-target="#abptb_location_global">📍Stops</li>
+                                                <li data-tabs-target="#abptb_category_global">🏘️ Transport Type</li>
+                                                <li data-tabs-target="#abptb_organizer_global">🏢 Organizer</li>
                                                 <li data-tabs-target="#abptb_brand_global">🏷️ Brands</li>
                                                 <li data-tabs-target="#abptb_feature_global">🔗Feature</li>
+                                                <li data-tabs-target="#abptb_resource_global">📚 Resources</li>
                                             </ul>
                                         </li>
                                         <!-- CONFIGURATION -->
@@ -107,6 +124,7 @@
                                                 <li data-tabs-target="#abptb_booking_pdf">📑 Order Lists PDF (PRO)</li>
                                                 <li data-tabs-target="#abptb_csv">📑Order Lists CSV (PRO)</li>
                                                 <li data-tabs-target="#abptb_email">📧 E-mail (PRO)</li>
+                                                <li data-tabs-target="#abptb_on_off"><span class="fas fa-toggle-on"></span>ON/OFF</li>
                                                 <li data-tabs-target="#abptb_slider">🖼️Slider</li>
                                                 <li data-tabs-target="#abptb_contact">☎️ Contact Information</li>
                                                 <li data-tabs-target="#abptb_css_value">🎨CSS Property</li>
@@ -145,12 +163,13 @@
                                             require_once ABPTB_DOC_DIR . '/inc/global_date.php';
                                             require_once ABPTB_DOC_DIR . '/inc/global_additional.php';
                                             require_once ABPTB_DOC_DIR . '/inc/global_client_form.php';
-                                            require_once ABPTB_DOC_DIR . '/inc/global_tc.php';
-                                            require_once ABPTB_DOC_DIR . '/inc/global_faq.php';
+                                            require_once ABPTB_DOC_DIR . '/inc/global_discount.php';
                                             require_once ABPTB_DOC_DIR . '/inc/global_category.php';
                                             require_once ABPTB_DOC_DIR . '/inc/global_location.php';
+                                            require_once ABPTB_DOC_DIR . '/inc/global_organizer.php';
                                             require_once ABPTB_DOC_DIR . '/inc/global_brand.php';
                                             require_once ABPTB_DOC_DIR . '/inc/global_feature.php';
+                                            require_once ABPTB_DOC_DIR . '/inc/global_resource.php';
                                             /************************/
                                             require_once ABPTB_DOC_DIR . '/inc/configuration.php';
                                             require_once ABPTB_DOC_DIR . '/inc/configuration_common.php';
@@ -158,6 +177,7 @@
                                             require_once ABPTB_DOC_DIR . '/inc/configuration_order_list.php';
                                             require_once ABPTB_DOC_DIR . '/inc/configuration_csv.php';
                                             require_once ABPTB_DOC_DIR . '/inc/configuration_email.php';
+                                            require_once ABPTB_DOC_DIR . '/inc/configuration_on_off.php';
                                             require_once ABPTB_DOC_DIR . '/inc/configuration_slider.php';
                                             require_once ABPTB_DOC_DIR . '/inc/configuration_contact.php';
                                             require_once ABPTB_DOC_DIR . '/inc/configuration_css.php';
