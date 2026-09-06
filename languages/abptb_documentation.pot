@@ -1,0 +1,284 @@
+# Copyright (C) 2026 ABPTEAM
+# This file is distributed under the GPL-3.0-or-later license.
+# ABP Transport Booking - Documentation
+#
+# To translate this file, rename it to abptb_documentation-<locale>.po,
+# fill in the msgstr values, then compile it with msgfmt into a .mo file.
+msgid ""
+msgstr ""
+"Project-Id-Version: ABP Transport Booking - Documentation 1.0.4\n"
+"Report-Msgid-Bugs-To: https://abp-team.com/support-desk/\n"
+"POT-Creation-Date: 2026-09-05T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-09-05T00:00:00+00:00\n"
+"Last-Translator: ABPTEAM <support@abp-team.com>\n"
+"Language-Team: ABPTEAM\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: wp-cli\n"
+"X-Domain: abptb_documentation\n"
+
+#. Admin menu tab label
+#: abprf_documentation.php
+msgid "Documentation"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Getting Started"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Features"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Applications"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Menu Overview"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Transport Lists"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "General Configuration"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Ticket"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Route"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Price"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Date Configuration"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Time Configuration"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Additional Services"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Client Forms"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Discount Settings"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Resources"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Features Library"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Global Resources"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Overview"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Orders"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Ticket / Seat Plan"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Add Order"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Global Data"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Global Data Overview"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Dates"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Client Form"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Discount"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Global Discount"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Stops / Locations"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Transport Type / Category"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Organizer"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Brands"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Configuration"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Configuration Overview"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Transport"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "PDF"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Order Lists PDF"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Order Lists CSV"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "E-Mail"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "On / Off Features"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Slider"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Contact Information"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "CSS Property"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Status"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "License"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Shortcodes"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Templating"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Translation"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "The ABP Transport Booking plugin is not active. This documentation is designed to be used with it — it still renders standalone with all screenshots and guides included."
+msgstr ""
+
+#: abprf_documentation.php
+msgid "ABP Transport Booking — Documentation"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Free + PRO user guide — setup, configuration, booking workflow, orders, global data, shortcodes and templates."
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Search documentation…"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Search documentation"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Clear search"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Included in the free plugin"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Requires the PRO version"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Tip: press “/” to focus search."
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Documentation sections"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "No documentation found"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Try a different search term."
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Previous"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Next"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Back to top"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Free & PRO user guide by"
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Documentation section not found."
+msgstr ""
+
+#: abprf_documentation.php
+msgid "Documentation section could not be rendered."
+msgstr ""

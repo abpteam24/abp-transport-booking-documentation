@@ -2,84 +2,124 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-	<div class="tab_item" data-tabs="#abptb_css_value">
-        <h2 class="abp_color_theme_gap_xs">🎨Transport Booking - CSS Value Configuration </h2>
-		<div class="_divider"></div>
-		<i class="_color_7_fs_label_mar_tb_d_block">These are describe CSS Value Configuration . </i>
-		<i class="_color_7_fs_label_mar_tb_d_block">Note: this value applicable only for Transport section area not full site. </i>
+	<div class="abtb_doc_panel" data-tabs="#abptb_css_value">
+		<div class="abtb_doc_page_head">
+			<h2>🎨 CSS Value Configuration</h2>
+			<p class="abtb_doc_lede">
+				The <strong>CSS</strong> tab lets you customise colours, font sizes, border radius, and other visual properties
+				for the Transport Booking frontend. These values apply to the transport section area only — not the full site.
+			</p>
+		</div>
 
-		<table class="abp_fixed_text_left_mt">
+		<div class="abtb_doc_callout abtb_doc_callout_note">
+			<strong>ℹ️ Scope</strong>
+			The CSS values configured on this page apply only to the Transport Booking section area. They do not affect the
+			rest of your WordPress site.
+		</div>
+
+		<h3>🎨 Colour Settings</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>Option</th>
+					<th>Description</th>
+				</tr>
+			</thead>
 			<tbody>
-			<tr>
-				<th class="_color_theme">Base Color</th>
-				<td colspan="3"> Choose the Standard base color.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Alternate Color</th>
-				<td colspan="3">By choosing Default Theme Alternate Color, the text color will be used if the backdrop color is Base Color or alternately.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Default Color</th>
-				<td colspan="3">Select Default Text Color.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Default Border Radios</th>
-				<td colspan="3"> Type Default Border Radios(in PX Unit).</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Default Font Size</th>
-				<td colspan="3"> Enter the default font size (in PX units).</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Font Size h1</th>
-				<td colspan="3">Enter the h1 font size (in PX units). default:35px</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Font Size h2</th>
-				<td colspan="3">Enter the h2 font size (in PX units). default:30px</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Font Size h3</th>
-				<td colspan="3">Enter the h3 font size (in PX units).default:25px</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Font Size h4</th>
-				<td colspan="3">Enter the h4 font size (in PX units). default:20px</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Font Size h5</th>
-				<td colspan="3">Enter the h5 font size (in PX units). default:17px</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Font Size h6</th>
-				<td colspan="3">Enter the h6 font size (in PX units). default:15px</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Label Font Size</th>
-				<td colspan="3">Enter the label font size (in PX units). default:14px</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Button Font Size</th>
-				<td colspan="3">Enter the button font size (in PX units). default:13px</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Button Text Color</th>
-				<td colspan="3">Select Button Text Color.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Button Background Color</th>
-				<td colspan="3">Select Button Background Color.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Warning Color</th>
-				<td colspan="3"> Select Warning Color.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Section Background color</th>
-				<td colspan="3">Here you can add Section Background color.</td>
-			</tr>
+				<tr>
+					<td><strong>Base Color</strong></td>
+					<td>Choose the base colour for Transport Booking elements.</td>
+				</tr>
+				<tr>
+					<td><strong>Alternate Color</strong></td>
+					<td>The text colour used when the backdrop colour is the base colour, or alternately.</td>
+				</tr>
+				<tr>
+					<td><strong>Default Color</strong></td>
+					<td>Select the default text colour.</td>
+				</tr>
+				<tr>
+					<td><strong>Button Text Color</strong></td>
+					<td>Select the button text colour.</td>
+				</tr>
+				<tr>
+					<td><strong>Button Background Color</strong></td>
+					<td>Select the button background colour.</td>
+				</tr>
+				<tr>
+					<td><strong>Warning Color</strong></td>
+					<td>Select the warning colour used for alerts and notices.</td>
+				</tr>
+				<tr>
+					<td><strong>Section Background Color</strong></td>
+					<td>Set the background colour for the section area.</td>
+				</tr>
 			</tbody>
 		</table>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/css_value.png"><img class="_img_control" src="#" alt="CSS Value "></div>
+
+		<h3>🔤 Typography &amp; Layout</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>Option</th>
+					<th>Description</th>
+					<th>Default</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><strong>Default Border Radius</strong></td>
+					<td>Enter the default border radius in PX units.</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td><strong>Default Font Size</strong></td>
+					<td>Enter the default font size in PX units.</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td><strong>Font Size h1</strong></td>
+					<td>Enter the H1 font size in PX units.</td>
+					<td>35px</td>
+				</tr>
+				<tr>
+					<td><strong>Font Size h2</strong></td>
+					<td>Enter the H2 font size in PX units.</td>
+					<td>30px</td>
+				</tr>
+				<tr>
+					<td><strong>Font Size h3</strong></td>
+					<td>Enter the H3 font size in PX units.</td>
+					<td>25px</td>
+				</tr>
+				<tr>
+					<td><strong>Font Size h4</strong></td>
+					<td>Enter the H4 font size in PX units.</td>
+					<td>20px</td>
+				</tr>
+				<tr>
+					<td><strong>Font Size h5</strong></td>
+					<td>Enter the H5 font size in PX units.</td>
+					<td>17px</td>
+				</tr>
+				<tr>
+					<td><strong>Font Size h6</strong></td>
+					<td>Enter the H6 font size in PX units.</td>
+					<td>15px</td>
+				</tr>
+				<tr>
+					<td><strong>Label Font Size</strong></td>
+					<td>Enter the label font size in PX units.</td>
+					<td>14px</td>
+				</tr>
+				<tr>
+					<td><strong>Button Font Size</strong></td>
+					<td>Enter the button font size in PX units.</td>
+					<td>13px</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/css_value.png"><img class="abtb_doc_screen_img" src="#" alt="CSS Value "></div>
 	</div>
 <?php

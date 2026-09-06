@@ -2,56 +2,96 @@
 	if (!defined('ABSPATH')) {
 		exit; // Exit if accessed directly
 	} ?>
-	<div class="tab_item" data-tabs="#abptb_global_discount">
-		<h3 class="abp_color_theme_gap_xs">✂️ Global Discount Configuration (Pro)</h3>
-		<div class="_divider_xxs"></div>
-		<label>The Global Discount Configuration allows you to enable and manage Seasonal Discount and Early Bird Discount across the entire website. You can configure multiple date ranges and discount percentages for each discount type. The system first checks transport-level discount pricing, and if no transport-specific discount is configured, the applicable Global Discount can be used.</label>
+	<div class="abtb_doc_panel" data-tabs="#abptb_global_discount">
+		<div class="abtb_doc_page_head">
+			<h2>✂️ Global Discount Configuration (PRO)</h2>
+			<p class="abtb_doc_lede">
+				The <strong>Global Discount Configuration</strong> screen under the <em>Global Data</em> tab lets you
+				enable and manage Seasonal Discount and Early Bird Discount rules across the entire website. When no
+				transport-level discount pricing is configured, the applicable global discount is used automatically.
+			</p>
+		</div>
 
-		<table class="abp_fixed_text_left_mt">
+		<p class="abtb_doc_section_intro">
+			You can define multiple date ranges and discount percentages for each discount type. The system first checks
+			transport-level discount pricing; if no transport-specific discount is found, it falls back to the global
+			rules configured here.
+		</p>
+
+		<div class="abtb_doc_callout abtb_doc_callout_note">
+			<strong>ℹ️ PRO feature</strong>
+			Global discount configuration is available only with Transport Booking Pro. The basic plugin does not include
+			discount functionality.
+		</div>
+
+		<h3>🌦️ Seasonal Discount</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>Option</th>
+					<th>Description</th>
+				</tr>
+			</thead>
 			<tbody>
-			<tr>
-				<th class="_color_theme">Seasonal Discount?</th>
-				<td colspan="3">Enable or disable the Global Seasonal Discount feature. Turn <strong class="abp_color_theme">ON</strong> to apply Seasonal Discounts across the website according to the configured date ranges and discount percentages, or turn <strong class="abp_color_theme">OFF</strong> to disable the global Seasonal Discount.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Seasonal Date Range</th>
-				<td colspan="3">Define the start date and end date for each Seasonal Discount period. You can configure different discount percentages for different date ranges.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Seasonal Discount Percentage</th>
-				<td colspan="3">Enter the discount percentage that should be applied during the configured Seasonal Discount date range.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Add New Seasonal Date Range</th>
-				<td colspan="3">Click <strong>Add New Seasonal Date Range</strong> to create an additional Seasonal Discount period with its own start date, end date, and discount percentage.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Early Bird Discount?</th>
-				<td colspan="3">Enable or disable the Global Early Bird Discount feature. Turn <strong class="abp_color_theme">ON</strong> to apply Early Bird Discounts across the website according to the configured date ranges and discount percentages, or turn <strong class="abp_color_theme">OFF</strong> to disable the global Early Bird Discount.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Early Bird Date Range</th>
-				<td colspan="3">Define the start date and end date for each Early Bird Discount period. This allows you to configure advance-booking promotional periods according to your pricing requirements.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Early Bird Discount Percentage</th>
-				<td colspan="3">Enter the discount percentage that should be applied during the configured Early Bird Discount date range.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Add New Early Bird Date Range</th>
-				<td colspan="3">Click <strong>Add New Early Bird Date Range</strong> to create an additional Early Bird Discount period with its own start date, end date, and discount percentage.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Discount Priority</th>
-				<td colspan="3">The system checks transport-level Seasonal Pricing and Early Bird Pricing first. If no transport-specific discount pricing is configured, the applicable Global Discount can be used according to the configured global rules.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Save Global Discount</th>
-				<td colspan="3">Click <strong>Save Global Discount</strong> to save the configured Seasonal Discount and Early Bird Discount settings and their respective date ranges.</td>
-			</tr>
+				<tr>
+					<td><strong>Seasonal Discount?</strong></td>
+					<td>Enable or disable the Global Seasonal Discount feature. Turn <strong>ON</strong> to apply seasonal discounts across the website according to the configured date ranges, or turn <strong>OFF</strong> to disable it.</td>
+				</tr>
+				<tr>
+					<td><strong>Seasonal Date Range</strong></td>
+					<td>Define the start date and end date for each seasonal discount period. You can configure different discount percentages for different date ranges.</td>
+				</tr>
+				<tr>
+					<td><strong>Seasonal Discount Percentage</strong></td>
+					<td>Enter the discount percentage applied during the configured seasonal date range.</td>
+				</tr>
+				<tr>
+					<td><strong>Add New Seasonal Date Range</strong></td>
+					<td>Click <strong>Add New Seasonal Date Range</strong> to create an additional seasonal period with its own start date, end date, and discount percentage.</td>
+				</tr>
 			</tbody>
 		</table>
 
-		<div class="_mar_tb" data-image-href="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/discount_global.png"><img class="_img_control" src="#" alt="Global Discount Configuration"></div>
+		<h3>🐦 Early Bird Discount</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>Option</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><strong>Early Bird Discount?</strong></td>
+					<td>Enable or disable the Global Early Bird Discount feature. Turn <strong>ON</strong> to apply early bird discounts across the website, or turn <strong>OFF</strong> to disable it.</td>
+				</tr>
+				<tr>
+					<td><strong>Early Bird Date Range</strong></td>
+					<td>Define the start date and end date for each early bird discount period. Use these to configure advance-booking promotional periods.</td>
+				</tr>
+				<tr>
+					<td><strong>Early Bird Discount Percentage</strong></td>
+					<td>Enter the discount percentage applied during the configured early bird date range.</td>
+				</tr>
+				<tr>
+					<td><strong>Add New Early Bird Date Range</strong></td>
+					<td>Click <strong>Add New Early Bird Date Range</strong> to create an additional early bird period with its own start date, end date, and discount percentage.</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>⬇️ Discount Priority</h3>
+		<p class="abtb_doc_section_intro">
+			The system checks transport-level Seasonal Pricing and Early Bird Pricing first. If no transport-specific
+			discount is configured, the applicable global discount rules are applied.
+		</p>
+
+		<h3>💾 Saving the Configuration</h3>
+		<p class="abtb_doc_section_intro">
+			Click <strong>Save Global Discount</strong> to persist the configured Seasonal and Early Bird discount
+			settings along with their date ranges.
+		</p>
+
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/discount_global.png"><img class="abtb_doc_screen_img" src="#" alt="Global Discount Configuration"></div>
 	</div>
 <?php

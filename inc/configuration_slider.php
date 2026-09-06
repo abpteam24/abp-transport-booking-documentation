@@ -2,51 +2,80 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-	<div class="tab_item" data-tabs="#abptb_slider">
-        <h2 class="abp_color_theme"><span class="_mar_r_xs">🖼️</span>Transport Booking - Slider Configuration </h2>
-		<div class="_divider"></div>
-		<i class="_color_7_fs_label_mar_tb_d_block">These are describe Slider Configuration .</i>
+	<div class="abtb_doc_panel" data-tabs="#abptb_slider">
+		<div class="abtb_doc_page_head">
+			<h2>🖼️ Slider Configuration</h2>
+			<p class="abtb_doc_lede">
+				The <strong>Slider</strong> tab controls the homepage transport slider, including theme style, indicators,
+				showcase position, and popup behaviour. All settings apply to the transport slider on the frontend.
+			</p>
+		</div>
 
-		<table class="abp_fixed_text_left_mt">
+		<h3>🔄 Overview</h3>
+		<p class="abtb_doc_section_intro">
+			Transport Booking includes a configurable homepage slider that displays transport images in a carousel format.
+			You can enable or disable the slider, choose a theme, control indicator and showcase visibility, and configure
+			popup options for an enhanced browsing experience.
+		</p>
+
+		<h3>📝 Slider Settings</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>Option</th>
+					<th>Description</th>
+					<th>Default</th>
+				</tr>
+			</thead>
 			<tbody>
-			<tr>
-				<th class="_color_theme">Slider/Thumbnail ?</th>
-				<td colspan="3">Please turn the slider switch <strong class="abp_color_theme"> ON</strong> or <strong class="abp_color_theme"> OFF</strong> if you are only showing the thumbnail . By default, <strong class="abp_color_theme"> ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Slider Theme</th>
-				<td colspan="3">Please choose the theme style for the slider.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Visible Indicator ?</th>
-				<td colspan="3">If you hide Indicator , please Switch <strong class="abp_color_theme"> OFF</strong> or to Show Indicator Switch <strong class="abp_color_theme"> ON</strong> . By default, <strong class="abp_color_theme"> ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Indicator Type</th>
-				<td colspan="3"> Please Select Slider Indicator Type Default Icon. Default Icon</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Visible Showcase ?</th>
-				<td colspan="3"> If you hide Showcase , please Switch <strong class="abp_color_theme"> OFF</strong> or to Show Showcase Switch <strong class="abp_color_theme"> ON</strong>. By default,&nbsp;<strong class="abp_color_theme">ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Showcase Position</th>
-				<td colspan="3">Please Select Slider Showcase Position . Default Right</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Visible Popup ?</th>
-				<td colspan="3">If you hide popup slider , please Switch <strong class="abp_color_theme"> OFF</strong>&nbsp;or to Show popup slider Switch&nbsp;<strong class="abp_color_theme"> ON</strong>. By default,&nbsp;<strong class="abp_color_theme">ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Popup Image Indicator</th>
-				<td colspan="3">f you hide Popup Image Indicator , please Switch <strong class="abp_color_theme"> OFF</strong>&nbsp;or to Show Popup Image Indicator Switch&nbsp;<strong class="abp_color_theme"> ON</strong>. By default,&nbsp;<strong class="abp_color_theme">ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Popup Icon Indicator</th>
-				<td colspan="3">If you hide Popup Icon Indicator , please Switch <strong class="abp_color_theme"> OFF</strong>&nbsp;or to Show Popup Icon Indicator Switch&nbsp;<strong class="abp_color_theme"> ON</strong>. By default,&nbsp;<strong class="abp_color_theme">ON</strong></td>
-			</tr>
+				<tr>
+					<td><strong>Slider/Thumbnail</strong></td>
+					<td>Turn the slider switch <strong>ON</strong> to display the slider, or <strong>OFF</strong> to show only the thumbnail.</td>
+					<td>ON</td>
+				</tr>
+				<tr>
+					<td><strong>Slider Theme</strong></td>
+					<td>Choose the visual theme style for the slider.</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td><strong>Visible Indicator</strong></td>
+					<td>Control indicator visibility. Turn <strong>OFF</strong> to hide the indicator, or <strong>ON</strong> to show it.</td>
+					<td>ON</td>
+				</tr>
+				<tr>
+					<td><strong>Indicator Type</strong></td>
+					<td>Select the slider indicator type.</td>
+					<td>Default Icon</td>
+				</tr>
+				<tr>
+					<td><strong>Visible Showcase</strong></td>
+					<td>Control showcase visibility. Turn <strong>OFF</strong> to hide the showcase, or <strong>ON</strong> to show it.</td>
+					<td>ON</td>
+				</tr>
+				<tr>
+					<td><strong>Showcase Position</strong></td>
+					<td>Select the position of the slider showcase.</td>
+					<td>Right</td>
+				</tr>
+				<tr>
+					<td><strong>Visible Popup</strong></td>
+					<td>Control popup slider visibility. Turn <strong>OFF</strong> to hide the popup slider, or <strong>ON</strong> to show it.</td>
+					<td>ON</td>
+				</tr>
+				<tr>
+					<td><strong>Popup Image Indicator</strong></td>
+					<td>Control the popup image indicator. Turn <strong>OFF</strong> to hide it, or <strong>ON</strong> to show it.</td>
+					<td>ON</td>
+				</tr>
+				<tr>
+					<td><strong>Popup Icon Indicator</strong></td>
+					<td>Control the popup icon indicator. Turn <strong>OFF</strong> to hide it, or <strong>ON</strong> to show it.</td>
+					<td>ON</td>
+				</tr>
 			</tbody>
 		</table>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/slider.png"><img class="_img_control" src="#" alt="Slider"></div>
+
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/slider.png"><img class="abtb_doc_screen_img" src="#" alt="Slider"></div>
 	</div>
 <?php

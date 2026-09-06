@@ -2,40 +2,35 @@
     if (!defined('ABSPATH')) {
         exit; // Exit if accessed directly
     } ?>
-    <div class="tab_item" data-tabs="#abptb_getting_start">
-        <h2 class="abp_color_theme">ABP Transport Booking - Documentation</h2>
-        <div class="_divider_xs"></div>
-        <label> Thank you so much for choosing our plugin <strong class="abp">ABP Transport Booking</strong>. </label>
-        <p class="abp">
-            This documentation is designed to help you get started with
-            <strong class="abp">ABP Transport Booking</strong> and understand
-            its features, configuration options, and booking workflow.
-            Please review the documentation carefully to learn how to configure
-            and use the plugin effectively. Basic knowledge of WordPress and
-            WooCommerce is recommended.
-        </p>
-        <div class="_divider"></div>
-        <ol class="abp_list_margin">
-            <li>
-                <strong class="abp_color_theme">Version : </strong>&nbsp;&nbsp;1.0.3
-            </li>
-            <li>
-                <strong class="abp_color_theme">Author : </strong>&nbsp;&nbsp;
-                <a href="https://abp-team.com" target="_blank" rel="noopener">ABPTEAM</a>
-            </li>
-            <li>
-                <strong class="abp_color_theme">Created : </strong>&nbsp;&nbsp;14 August 2026
-            </li>
-            <li>
-                <strong class="abp_color_theme">Last Updated : </strong>&nbsp;&nbsp;21 August 2026
-            </li>
-        </ol>
-        <div class="_section_alert">
-        <span class="abp">
-            If you have any questions that are beyond the scope of this documentation,            don't hesitate to contact us through the
-            <a target="_blank" href="https://abp-team.com/support-desk/" rel="noopener">                Support Page            </a>.
-        </span>
+    <div class="abtb_doc_panel" data-tabs="#abptb_getting_start">
+        <div class="abtb_doc_page_head">
+            <h2>🚀 Getting Started</h2>
+            <p class="abtb_doc_lede">
+                Thank you for choosing <strong>ABP Transport Booking</strong>. This documentation is designed to help
+                you get started with the plugin and understand its features, configuration options, and booking
+                workflow. Please review it carefully to learn how to configure and use the plugin effectively.
+            </p>
         </div>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/transport_banner.jpeg"><img class="_img_control" src="#" alt="Add New Feature"></div>
+
+        <div class="abtb_doc_callout abtb_doc_callout_note">
+            <strong>ℹ️ Recommended knowledge</strong>
+            A basic working knowledge of WordPress and WooCommerce is recommended before using the plugin.
+        </div>
+
+        <h3>📄 Document information</h3>
+        <ol class="abtb_doc_steps">
+            <li><strong>Version</strong> — <?php echo esc_html(defined('ABPTB_DOC_VERSION') ? ABPTB_DOC_VERSION : '1.0.4'); ?></li>
+            <li><strong>Author</strong> — <a href="https://abp-team.com" target="_blank" rel="noopener">ABPTEAM</a></li>
+            <li><strong>Created</strong> — 14 August 2026</li>
+            <li><strong>Last Updated</strong> — 05 September 2026</li>
+        </ol>
+
+        <div class="abtb_doc_callout abtb_doc_callout_tip">
+            <strong>💡 Need help?</strong>
+            If you have any questions that are beyond the scope of this documentation, do not hesitate to contact us
+            through the <a target="_blank" href="https://abp-team.com/support-desk/" rel="noopener">Support Page</a>.
+        </div>
+
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/transport_banner.jpeg"><img class="abtb_doc_screen_img" src="#" alt="Add New Feature"></div>
     </div>
 <?php

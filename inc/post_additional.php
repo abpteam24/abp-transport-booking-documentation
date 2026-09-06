@@ -1,64 +1,100 @@
-<?php
-	if ( ! defined( 'ABSPATH' ) ) {
-		exit; // Exit if accessed directly
-	} ?>
-    <div class="tab_item" data-tabs="#abptb_additional">
-        <h2 class="abp_color_theme">Additional Services Configuration</h2>
-        <div class="_divider_xxs"></div>
-        <label>
-            The Additional Services Configuration system allows you to manage extra services or optional items that passengers can add to their transport booking. These services can be configured globally and imported into individual transports, giving you flexible control over optional services, quantities, pricing, and availability.
-        </label>
-        <h6 class="abp_gap_xs">🌍 Global Additional Services</h6>
-        <i>
-            From the Global Configuration panel, you can define a reusable set of additional services that can be used across multiple transports.
-        </i>
-        <ul class="abp_list_margin_xs">
-            <li>👉 Create reusable additional services for transport bookings</li>
-            <li>👉 Define service name, icon/image, quantity, price, maximum quantity, and description</li>
-            <li>👉 Set whether an additional service is returnable or non-returnable</li>
-            <li>👉 Maintain a centralized additional service list for multiple transports</li>
-        </ul>
-        <h6 class="abp_gap_xs">🚌 Transport-Level Configuration</h6>
-        <i>
-            Each transport can have its own additional services configuration based on the services available for that particular transport.
-        </i>
-        <ul class="abp_list_margin_xs">
-            <li>👉 Enable or disable additional services for the transport</li>
-            <li>👉 Import services directly from the global configuration</li>
-            <li>👉 Add new custom services specific to the transport</li>
-            <li>👉 Modify imported or custom services according to transport requirements</li>
-            <li>👉 Remove services that are not available for the selected transport</li>
-        </ul>
-        <h6 class="abp_gap_xs">⚙️ Service Configuration Options</h6>
-        <ul class="abp_list_margin_xs">
-            <li>👉 Icon / Image — Add a visual representation for the service</li>
-            <li>👉 Service Name — Define the name displayed to passengers</li>
-            <li>👉 Quantity — Set the available quantity of the service</li>
-            <li>👉 Price — Define the additional charge for the service</li>
-            <li>👉 Maximum Quantity — Limit how many units a passenger can select</li>
-            <li>👉 Returnable or Not — Specify whether the service is applicable for return or refundable use</li>
-            <li>👉 Description — Add additional information or instructions about the service</li>
-        </ul>
-        <h6 class="abp_gap_xs">🔄 Import & Flexibility System</h6>
-        <ul class="abp_list_margin_xs">
-            <li>👉 Import reusable services from the global configuration</li>
-            <li>👉 Edit imported services based on the transport requirements</li>
-            <li>👉 Combine global and transport-specific services</li>
-            <li>👉 Add custom services without modifying the global service list</li>
-        </ul>
-        <h6 class="abp_gap_xs">🚀 Common Transport Services</h6>
-        <ul class="abp_list_margin_xs">
-            <li>👉 Extra Luggage</li>
-            <li>👉 Additional Baggage</li>
-            <li>👉 Priority Boarding</li>
-            <li>👉 Meal or Food Service</li>
-            <li>👉 Wi-Fi Access</li>
-            <li>👉 Bicycle or Sports Equipment</li>
-            <li>👉 Special Passenger Assistance</li>
-            <li>👉 Other Optional Transport Services</li>
-        </ul>
-        <div class="abp_image" data-image-href="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/additional.png">
-            <img class="_img_control" src="#" alt="Additional Services Configuration Overview">
-        </div>
+<div class="abtb_doc_panel" data-tabs="#abptb_additional">
+    <div class="abtb_doc_page_head">
+        <h2>Additional Services Configuration</h2>
+        <p class="abtb_doc_lede">
+            The Additional Services system lets you define extra optional items — such as luggage, meals, or Wi-Fi — that passengers can add to their transport booking. Services are managed globally and then imported into individual transports for flexible, transport-level control.
+        </p>
     </div>
-<?php
+
+    <h3>🌍 Global Additional Services</h3>
+    <p class="abtb_doc_section_intro">
+        From the Global Configuration panel you create a reusable library of additional services that can be imported into any transport. Each service is defined once here and shared across multiple transports.
+    </p>
+    <ul>
+        <li>Create reusable additional services for transport bookings.</li>
+        <li>Define a service name, icon/image, quantity, price, maximum quantity, and description.</li>
+        <li>Set whether an additional service is returnable or non-returnable.</li>
+        <li>Maintain a centralized service list that any transport can pull from.</li>
+    </ul>
+
+    <h3>🚌 Transport-Level Configuration</h3>
+    <p class="abtb_doc_section_intro">
+        Each transport can have its own set of additional services based on what is available for that particular route or vehicle. You can import from the global list or add services from scratch.
+    </p>
+    <ul>
+        <li>Enable or disable additional services for the transport.</li>
+        <li>Import services directly from the global configuration.</li>
+        <li>Add new custom services specific to the transport.</li>
+        <li>Modify imported or custom services according to transport requirements.</li>
+        <li>Remove services that are not available for the selected transport.</li>
+    </ul>
+
+    <h3>⚙️ Service Configuration Options</h3>
+    <p class="abtb_doc_section_intro">Each additional service supports the following fields:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Option</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Icon / Image</strong></td>
+                <td>A visual representation displayed alongside the service name.</td>
+            </tr>
+            <tr>
+                <td><strong>Service Name</strong></td>
+                <td>The label shown to passengers when selecting the service.</td>
+            </tr>
+            <tr>
+                <td><strong>Quantity</strong></td>
+                <td>The total available quantity of the service.</td>
+            </tr>
+            <tr>
+                <td><strong>Price</strong></td>
+                <td>The additional charge applied when a passenger selects this service.</td>
+            </tr>
+            <tr>
+                <td><strong>Maximum Quantity</strong></td>
+                <td>Limits how many units a single passenger can select.</td>
+            </tr>
+            <tr>
+                <td><strong>Returnable or Not</strong></td>
+                <td>Specifies whether the service is applicable for return or refundable use.</td>
+            </tr>
+            <tr>
+                <td><strong>Description</strong></td>
+                <td>Additional information or instructions displayed alongside the service.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>🔄 Import &amp; Flexibility System</h3>
+    <p class="abtb_doc_section_intro">
+        The import system keeps your service definitions in sync while allowing transport-level customization.
+    </p>
+    <ul>
+        <li>Import reusable services from the global configuration.</li>
+        <li>Edit imported services to match transport-specific requirements.</li>
+        <li>Combine global and transport-specific services in a single list.</li>
+        <li>Add custom services without modifying the global service library.</li>
+    </ul>
+
+    <h3>🚀 Common Transport Services</h3>
+    <p class="abtb_doc_section_intro">Typical additional services offered by transport operators include:</p>
+    <ul>
+        <li>Extra Luggage</li>
+        <li>Additional Baggage</li>
+        <li>Priority Boarding</li>
+        <li>Meal or Food Service</li>
+        <li>Wi-Fi Access</li>
+        <li>Bicycle or Sports Equipment</li>
+        <li>Special Passenger Assistance</li>
+        <li>Other Optional Transport Services</li>
+    </ul>
+
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/additional.png">
+        <img class="abtb_doc_screen_img" src="#" alt="Additional Services Configuration Overview">
+    </div>
+</div>
