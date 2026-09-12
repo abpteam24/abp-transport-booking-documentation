@@ -296,6 +296,21 @@
 .abtb_doc .abtb_doc_nav_icon,
 .abtb_doc .abtb_doc_group_icon { width: 18px; text-align: center; font-size: 13px; flex: 0 0 18px; }
 
+/* Font Awesome glyphs inside the icon chips */
+.abtb_doc .abtb_doc_nav_icon i,
+.abtb_doc .abtb_doc_group_icon i {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1;
+}
+
+/* Emoji glyphs inside the icon chips */
+.abtb_doc .abtb_doc_nav_icon .abtb_doc_icon_emoji,
+.abtb_doc .abtb_doc_group_icon .abtb_doc_icon_emoji {
+    font-size: 13px;
+    line-height: 1;
+}
+
 /* Main tabs (top-level items + group heads): uniform boxed emoji chips */
 .abtb_doc .abtb_doc_nav > .abtb_doc_nav_item > .abtb_doc_nav_icon,
 .abtb_doc .abtb_doc_group_head > .abtb_doc_group_icon {

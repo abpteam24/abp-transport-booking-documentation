@@ -269,6 +269,20 @@
 
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
+                    <span class="abtb_doc_card_icon">📋</span>
+                    <h3>Customer My Account Page</h3>
+                </div>
+                <ul>
+                    <li>&quot;Transport Bookings&quot; section inside the WooCommerce My Account page</li>
+                    <li>Lists the logged-in customer's own bookings only</li>
+                    <li>Paginated bookings list</li>
+                    <li>Shows booking status and details</li>
+                    <li>Login required to view bookings</li>
+                </ul>
+            </div>
+
+            <div class="abtb_doc_card">
+                <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">❓</span>
                     <h3>FAQ &amp; Terms and Conditions</h3>
                 </div>
@@ -396,10 +410,60 @@
 
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
+                    <span class="abtb_doc_card_icon">💰</span>
+                    <h3>Partial Payment</h3>
+                    <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
+                </div>
+                <p class="abtb_doc_card_lead">Let customers pay a deposit now and settle the balance later:</p>
+                <ul>
+                    <li>Site-wide On/Off switch for the whole feature</li>
+                    <li>Deposit as a fixed amount or a percentage of the total</li>
+                    <li>Global default plus an independent per-transport override</li>
+                    <li>Customer chooses <em>Full Amount</em> or <em>Deposit</em> at checkout</li>
+                    <li><em>Balance Due Later</em> fee keeps the remaining amount visible on the order</li>
+                    <li>Deposit paid and remaining balance stored on the order</li>
+                </ul>
+            </div>
+
+            <div class="abtb_doc_card">
+                <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🗂️</span>
                     <h3>Advanced Booking Management</h3>
                     <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
                 </div>
+            </div>
+
+            <div class="abtb_doc_card">
+                <div class="abtb_doc_card_head">
+                    <span class="abtb_doc_card_icon">✏️</span>
+                    <h3>Edit Existing Bookings</h3>
+                    <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
+                </div>
+                <ul>
+                    <li>Edit a booking directly from the Order List via the ✏️ button</li>
+                    <li>Change transport, route, journey date and departure time</li>
+                    <li>Adjust ticket quantities or rearrange the seat plan</li>
+                    <li>Edit passenger details and additional services</li>
+                    <li>Update billing information and order status</li>
+                    <li>Live stock availability with own-booking stock excluded</li>
+                </ul>
+            </div>
+
+            <div class="abtb_doc_card">
+                <div class="abtb_doc_card_head">
+                    <span class="abtb_doc_card_icon">🧾</span>
+                    <h3>My Account PDF Download &amp; Cancellation</h3>
+                    <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
+                </div>
+                <p class="abtb_doc_card_lead">Customer-facing tools on the My Account bookings list:</p>
+                <ul>
+                    <li>Download the PDF ticket/invoice button for each booked booking</li>
+                    <li>&quot;Request Cancellation&quot; button on a customer's booking</li>
+                    <li>Request allowed only within the time limit set under Global Data → Cancel Request</li>
+                    <li>&quot;Cancel Request Pending&quot; status badge while waiting</li>
+                    <li>Admin approves or rejects requests from the Order List Cancel Requests tab</li>
+                    <li>Approval cancels the booking and makes its seats/tickets available again</li>
+                </ul>
             </div>
 
             <div class="abtb_doc_card">

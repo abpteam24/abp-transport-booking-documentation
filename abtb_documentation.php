@@ -34,8 +34,8 @@ if (!defined('ABPTB_DOC_INC')) {
     define('ABPTB_DOC_INC', ABPTB_DOC_DIR . '/inc');
 }
 
-if (!class_exists('ABPTB_Documentation')) {
-    class ABPTB_Documentation {
+if (!class_exists('ABTB_Documentation')) {
+    class ABTB_Documentation {
 
         private bool $rendered = false;
 
@@ -57,7 +57,6 @@ if (!class_exists('ABPTB_Documentation')) {
 						}
 					}
 				);
-            add_action('init', array($this, 'load_textdomain'));
             add_shortcode('abptb-documentation', array($this, 'do_documentation'));
             add_action('wp', array($this, 'maybe_enqueue_assets'));
         }
@@ -65,25 +64,10 @@ if (!class_exists('ABPTB_Documentation')) {
         /* -------------------------------------------------------------
          * Bootstrapping
          * ----------------------------------------------------------- */
-
-        public function load_textdomain(): void {
-            load_plugin_textdomain('abptb_documentation', false, dirname(plugin_basename(__FILE__)) . '/languages');
-        }
-
         public function enqueue_assets(): void {
-            wp_enqueue_style(
-                'abtb-doc',
-                ABPTB_DOC_URL . '/assets/css/abtb_doc.css',
-                array(),
-                ABPTB_DOC_VERSION
-            );
-            wp_enqueue_script(
-                'abtb-doc',
-                ABPTB_DOC_URL . '/assets/js/abtb_doc.js',
-                array('jquery'),
-                ABPTB_DOC_VERSION,
-                true
-            );
+            wp_enqueue_style(                'abtb-doc',                ABPTB_DOC_URL . '/assets/css/abtb_doc.css',                array(),                ABPTB_DOC_VERSION            );
+            wp_enqueue_style(                'abtb-doc-fa', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css',                array(),                ABPTB_DOC_VERSION         );
+            wp_enqueue_script(                'abtb-doc',                ABPTB_DOC_URL . '/assets/js/abtb_doc.js',                array('jquery'),                ABPTB_DOC_VERSION,                true            );
         }
 
         public function maybe_enqueue_assets(): void {
@@ -128,48 +112,51 @@ if (!class_exists('ABPTB_Documentation')) {
 
         private function get_sections(): array {
             return array(
-                $this->tab('abptb_getting_start', __('Getting Started', 'abptb_documentation'), '🚀', 'getting_start.php', false, 'start intro welcome version'),
-                $this->tab('abptb_feature', __('Features', 'abptb_documentation'), '⭐', 'features.php', false, 'feature list free pro'),
-                $this->tab('abptb_application', __('Applications', 'abptb_documentation'), '📌', 'application.php', false, 'use case bus ferry coach shuttle'),
-                $this->tab('abptb_menu_lists', __('Menu Overview', 'abptb_documentation'), '🧭', 'menu_lists.php', false, 'admin menu navigation'),
+                $this->tab('abptb_getting_start', __('Getting Started', 'abptb_documentation'), 'fas fa-rocket', 'getting_start.php', false, 'start intro welcome version'),
+                $this->tab('abptb_installation', __('Installation', 'abptb_documentation'), 'fas fa-download', 'installation.php', false, 'install setup activate free pro zip upload license requirements woocommerce'),
+                $this->tab('abptb_feature', __('Features', 'abptb_documentation'), 'fas fa-star', 'features.php', false, 'feature list free pro'),
+                $this->tab('abptb_application', __('Applications', 'abptb_documentation'), 'fas fa-thumbtack', 'application.php', false, 'use case bus ferry coach shuttle'),
+                $this->tab('abptb_menu_lists', __('Menu Overview', 'abptb_documentation'), 'fas fa-list-ul', 'menu_lists.php', false, 'admin menu navigation'),
+                $this->tab('abptb_dashboard', __('Dashboard', 'abptb_documentation'), 'fas fa-gauge-high', 'admin_dashboard.php', false, 'dashboard overview stats kpi quick actions system status'),
                 array(
                     'id'       => 'transport',
                     'label'    => __('Transport Lists', 'abptb_documentation'),
-                    'icon'     => '🚌',
+                    'icon'     => 'fas fa-bus',
                     'overview' => 'abptb_post',
                     'tabs'     => array(
-                        $this->tab('abptb_post', __('Overview', 'abptb_documentation'), '🗂️', 'post_menu.php', false, 'overview list clone restore delete edit trash'),
-                        $this->tab('abptb_general', __('General Configuration', 'abptb_documentation'), '⚙️', 'post_general.php', false, 'basic sale template sku icon capacity type organizer brand'),
+                        $this->tab('abptb_post', __('Overview', 'abptb_documentation'), 'fas fa-layer-group', 'post_menu.php', false, 'overview list clone restore delete edit trash'),
+                        $this->tab('abptb_general', __('General Configuration', 'abptb_documentation'), 'fas fa-rainbow', 'post_general.php', false, 'basic sale template sku icon capacity type organizer brand'),
                         $this->tab('abptb_ticket', __('Ticket', 'abptb_documentation'), '🎫', 'post_ticket.php', false, 'ticket seat plan quantity min max'),
-                        $this->tab('abptb_route', __('Route', 'abptb_documentation'), '🛤️', 'post_route.php', false, 'route stop forward return pickup dropoff'),
+                        $this->tab('abptb_route', __('Route', 'abptb_documentation'), 'fas fa-route', 'post_route.php', false, 'route stop forward return pickup dropoff'),
                         $this->tab('abptb_price', __('Price', 'abptb_documentation'), '💲', 'post_price.php', false, 'price fare forward return amount'),
-                        $this->tab('abptb_date', __('Date Configuration', 'abptb_documentation'), '📅', 'post_date.php', false, 'date schedule periodic specific weekend off'),
+                        $this->tab('abptb_date', __('Date Configuration', 'abptb_documentation'), '🗓️', 'post_date.php', false, 'date schedule periodic specific weekend off'),
                         $this->tab('abptb_time', __('Time Configuration', 'abptb_documentation'), '⏰', 'post_time.php', false, 'time multiple time schedule'),
                         $this->tab('abptb_additional', __('Additional Services', 'abptb_documentation'), '💰', 'post_additional.php', false, 'additional service extra'),
-                        $this->tab('abptb_client_form', __('Client Forms', 'abptb_documentation'), '🧾', 'post_client_form.php', false, 'client form field attendee'),
+                        $this->tab('abptb_client_form', __('Client Forms', 'abptb_documentation'), '📋', 'post_client_form.php', false, 'client form field attendee'),
                         $this->tab('abptb_discount', __('Discount Settings', 'abptb_documentation'), '✂️', 'post_discount.php', true, 'discount seasonal early bird pro'),
                         $this->tab('abptb_pp_post', __('Partial Payment', 'abptb_documentation'), '💰', 'post_partial_payment.php', true, 'partial payment deposit advance balance due pro'),
                         $this->tab('abptb_resource', __('Resources', 'abptb_documentation'), '📚', 'post_resource.php', false, 'resource tax faq terms condition'),
                     ),
                 ),
-                $this->tab('abptb_orders', __('Orders', 'abptb_documentation'), '🧾', 'order_list.php', false, 'order list booking status filter'),
-                $this->tab('abptb_my_account', __('My Account', 'abptb_documentation'), '👤', 'my_account.php', false, 'my account customer bookings download pdf cancel request pro'),
-                $this->tab('abptb_sp', __('Ticket / Seat Plan', 'abptb_documentation'), '💺', 'ticket_sp.php', false, 'seat plan ticket type decor numbering'),
-                $this->tab('abptb_create_order', __('Add Order', 'abptb_documentation'), '➕', 'add_order.php', true, 'add order create pro'),
+                $this->tab('abptb_orders', __('Orders', 'abptb_documentation'), 'fas fa-file-invoice', 'order_list.php', false, 'order list booking status filter'),
+
+                $this->tab('abptb_sp', __('Ticket / Seat Plan', 'abptb_documentation'), 'fas fa-chair', 'ticket_sp.php', false, 'seat plan ticket type decor numbering'),
+                $this->tab('abptb_create_order', __('Add Order', 'abptb_documentation'), 'fas fa-cart-plus', 'add_order.php', true, 'add order create pro'),
+                $this->tab('abptb_cancel_request', __('Cancel Requests', 'abptb_documentation'), 'fas fa-ban', 'cancel_request.php', true, 'cancel request approve reject pending pro'),
                 array(
                     'id'       => 'global',
                     'label'    => __('Global Data', 'abptb_documentation'),
-                    'icon'     => '🌐',
+                    'icon'     => 'fas fa-globe',
                     'overview' => 'abptb_global_data',
                     'tabs'     => array(
-                        $this->tab('abptb_global_data', __('Global Data Overview', 'abptb_documentation'), '🌐', 'global_data.php', false, 'global reusable centralized'),
-                        $this->tab('abptb_date_global', __('Dates', 'abptb_documentation'), '📅', 'global_date.php', false, 'global date format buffer advance'),
+                        $this->tab('abptb_global_data', __('Global Data Overview', 'abptb_documentation'), 'fas fa-globe', 'global_data.php', false, 'global reusable centralized'),
+                        $this->tab('abptb_date_global', __('Dates', 'abptb_documentation'), 'fas fa-calendar-day', 'global_date.php', false, 'global date format buffer advance'),
                         $this->tab('abptb_additional_global', __('Additional services', 'abptb_documentation'), '💰', 'global_additional.php', false, 'global additional service'),
                         $this->tab('abptb_client_form_global', __('Client Form', 'abptb_documentation'), '📋', 'global_client_form.php', false, 'global client form'),
                         $this->tab('abptb_global_discount', __('Global Discount', 'abptb_documentation'), '✂️', 'global_discount.php', true, 'global discount seasonal early bird pro'),
                         $this->tab('abptb_pp_global', __('Partial Payment', 'abptb_documentation'), '💰', 'global_partial_payment.php', true, 'partial payment deposit advance balance due pro'),
-                        $this->tab('abptb_location_global', __('Stops / Locations', 'abptb_documentation'), '📍', 'global_location.php', false, 'global stop location loc_id'),
-                        $this->tab('abptb_category_global', __('Transport Type / Category', 'abptb_documentation'), '🏘️', 'global_category.php', false, 'global category transport type cat_id'),
+                        $this->tab('abptb_location_global', __('Stops / Locations', 'abptb_documentation'), 'fas fa-route', 'global_location.php', false, 'global stop location loc_id'),
+                        $this->tab('abptb_category_global', __('Transport Type / Category', 'abptb_documentation'), 'fas fa-boxes-stacked', 'global_category.php', false, 'global category transport type cat_id'),
                         $this->tab('abptb_organizer_global', __('Organizer', 'abptb_documentation'), '🏢', 'global_organizer.php', false, 'global organizer company operator org_id'),
                         $this->tab('abptb_brand_global', __('Brands', 'abptb_documentation'), '🏷️', 'global_brand.php', false, 'global brand brand_id'),
                         $this->tab('abptb_feature_global', __('Features Library', 'abptb_documentation'), '🔗', 'global_feature.php', false, 'global feature library'),
@@ -179,26 +166,25 @@ if (!class_exists('ABPTB_Documentation')) {
                 array(
                     'id'       => 'configuration',
                     'label'    => __('Configuration', 'abptb_documentation'),
-                    'icon'     => '⚙️',
+                    'icon'     => 'fas fa-gear',
                     'overview' => 'abptb_configuration',
                     'tabs'     => array(
-                        $this->tab('abptb_configuration', __('Configuration Overview', 'abptb_documentation'), '⚙️', 'configuration.php', false, 'global configuration woocommerce'),
-                        $this->tab('abptb_common', __('Transport', 'abptb_documentation'), '🚌', 'configuration_common.php', false, 'common transport label slug dashicon'),
-                        $this->tab('abptb_pdf', __('PDF', 'abptb_documentation'), '📄', 'configuration_pdf.php', true, 'pdf config pro background logo'),
-                        $this->tab('abptb_booking_pdf', __('Order Lists PDF', 'abptb_documentation'), '📑', 'configuration_order_list.php', true, 'order list pdf pro'),
-                        $this->tab('abptb_csv', __('Order Lists CSV', 'abptb_documentation'), '📊', 'configuration_csv.php', true, 'csv export order list pro'),
-                        $this->tab('abptb_email', __('E-Mail', 'abptb_documentation'), '📧', 'configuration_email.php', true, 'email notification pdf shortcode pro'),
-                        $this->tab('abptb_on_off', __('On / Off Features', 'abptb_documentation'), '🌗', 'configuration_on_off.php', false, 'feature on off toggle'),
-                        $this->tab('abptb_slider', __('Slider', 'abptb_documentation'), '🖼️', 'configuration_slider.php', false, 'slider'),
-                        $this->tab('abptb_contact', __('Contact Information', 'abptb_documentation'), '☎️', 'configuration_contact.php', false, 'contact company address phone email'),
-                        $this->tab('abptb_css_value', __('CSS Property', 'abptb_documentation'), '🎨', 'configuration_css.php', false, 'css color font size'),
+                        $this->tab('abptb_configuration', __('Configuration Overview', 'abptb_documentation'), 'fas fa-gear', 'configuration.php', false, 'global configuration woocommerce'),
+                        $this->tab('abptb_pdf', __('PDF', 'abptb_documentation'), 'fas fa-ticket-alt', 'configuration_pdf.php', true, 'pdf config pro background logo'),
+                        $this->tab('abptb_booking_pdf', __('Order Lists PDF', 'abptb_documentation'), 'far fa-file-alt', 'configuration_order_list.php', true, 'order list pdf pro'),
+                        $this->tab('abptb_csv', __('Order Lists CSV', 'abptb_documentation'), 'fas fa-file-csv', 'configuration_csv.php', true, 'csv export order list pro'),
+                        $this->tab('abptb_email', __('E-Mail', 'abptb_documentation'), 'far fa-envelope', 'configuration_email.php', true, 'email notification pdf shortcode pro'),
+                        $this->tab('abptb_on_off', __('On / Off Features', 'abptb_documentation'), 'fa-solid fa-toggle-on', 'configuration_on_off.php', false, 'feature on off toggle'),
+                        $this->tab('abptb_slider', __('Slider', 'abptb_documentation'), 'fas fa-photo-video', 'configuration_slider.php', false, 'slider'),
+                        $this->tab('abptb_contact', __('Contact Information', 'abptb_documentation'), 'fas fa-id-card-alt', 'configuration_contact.php', false, 'contact company address phone email'),
+                        $this->tab('abptb_css_value', __('CSS Property', 'abptb_documentation'), 'fas fa-drafting-compass', 'configuration_css.php', false, 'css color font size'),
                     ),
                 ),
-                $this->tab('abptb_status', __('Status', 'abptb_documentation'), '🛡️', 'status.php', false, 'status version woocommerce php system'),
-                $this->tab('abptb_license', __('License', 'abptb_documentation'), '🔑', 'license.php', true, 'license key activate deactivate trial pro updates'),
-                $this->tab('abptb_shortcode', __('Shortcodes', 'abptb_documentation'), '🔗', 'shortcode.php', false, 'shortcode abptb-booking abptb-post gallery ticket parameters'),
-                $this->tab('abptb_template', __('Templating', 'abptb_documentation'), '🧩', 'templating.php', false, 'template override theme'),
-                $this->tab('abptb_translate', __('Translation', 'abptb_documentation'), '🌍', 'translate.php', false, 'translation loco translate language'),
+                $this->tab('abptb_my_account', __('My Account', 'abptb_documentation'), 'fas fa-user', 'my_account.php', false, 'my account customer bookings download pdf cancel request pro'),
+                $this->tab('abptb_license', __('License', 'abptb_documentation'), 'fas fa-key', 'license.php', true, 'license key activate deactivate trial pro updates'),
+                $this->tab('abptb_shortcode', __('Shortcodes', 'abptb_documentation'), 'fas fa-code', 'shortcode.php', false, 'shortcode abptb-booking abptb-post gallery ticket parameters'),
+                $this->tab('abptb_template', __('Templating', 'abptb_documentation'), 'fas fa-puzzle-piece', 'templating.php', false, 'template override theme'),
+                $this->tab('abptb_translate', __('Translation', 'abptb_documentation'), 'fas fa-language', 'translate.php', false, 'translation loco translate language'),
             );
         }
 
@@ -343,7 +329,7 @@ if (!class_exists('ABPTB_Documentation')) {
                      data-collapse-target="#<?php echo esc_attr($menu_id); ?>"
                      <?php if ($overview) : ?>data-tabs-target="#<?php echo esc_attr($overview); ?>"<?php endif; ?>
                      aria-expanded="true">
-                    <span class="abtb_doc_group_icon"><?php echo esc_html($group['icon']); ?></span>
+                    <span class="abtb_doc_group_icon" aria-hidden="true"><?php $this->render_icon($group['icon']); ?></span>
                     <span class="abtb_doc_group_label"><?php echo esc_html($group['label']); ?></span>
                     <?php if ($pro_items) : ?>
                         <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
@@ -371,7 +357,7 @@ if (!class_exists('ABPTB_Documentation')) {
                 data-tabs-target="#<?php echo esc_attr($tab['id']); ?>"
                 data-doc-search="<?php echo esc_attr(strtolower($tab['label']) . ' ' . $tab['keywords']); ?>"
                 role="tab">
-                <span class="abtb_doc_nav_icon" aria-hidden="true"><?php echo esc_html($tab['icon']); ?></span>
+                <span class="abtb_doc_nav_icon" aria-hidden="true"><?php $this->render_icon($tab['icon']); ?></span>
                 <span class="abtb_doc_nav_label"><?php echo esc_html($tab['label']); ?></span>
                 <?php if ($tab['pro']) : ?>
                     <span class="abtb_doc_nav_badge"><span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span></span>
@@ -386,6 +372,14 @@ if (!class_exists('ABPTB_Documentation')) {
 
         private function mark_first_panel_active(string $html): string {
             return (string) preg_replace('/<div class="abtb_doc_panel"(\s)/', '<div class="abtb_doc_panel abtb_doc_active"$1', $html, 1);
+        }
+
+        private function render_icon(string $icon): void {
+            if (substr($icon, 0, 2) === 'fa') {
+                echo '<i class="' . esc_attr($icon) . '"></i>';
+            } else {
+                echo '<span class="abtb_doc_icon_emoji">' . esc_html($icon) . '</span>';
+            }
         }
 
         private function render_fragment(string $file): string {
@@ -424,5 +418,5 @@ if (!class_exists('ABPTB_Documentation')) {
             );
         }
     }
-    new ABPTB_Documentation();
+    new ABTB_Documentation();
 }

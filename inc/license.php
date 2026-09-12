@@ -2,8 +2,8 @@
     <div class="abtb_doc_page_head">
         <h2>🔑 License Management</h2>
         <p class="abtb_doc_lede">
-            The <strong>License</strong> tab (<strong>PRO</strong>) manages your Transport Booking Pro license key and
-            tracks the trial period. This page is where you activate your purchased key, deactivate it when moving
+            The <strong>License</strong> card (<strong>PRO</strong>) in the Dashboard sidebar manages your Transport Booking Pro license key and
+            tracks the trial period. This is where you activate your purchased key, deactivate it when moving
             sites, and see the current license state at a glance.
         </p>
     </div>
@@ -16,12 +16,12 @@
     </p>
 
     <div class="abtb_doc_callout abtb_doc_callout_note">
-        <strong>ℹ️ Where to find this page</strong>
-        In the WordPress admin, open <em>ABP Transport Booking → License</em> (sidebar button) to reach this panel.
+        <strong>ℹ️ Where to find this</strong>
+        In the WordPress admin, open <em>ABP Transport Booking → Dashboard</em>. The License card appears in the sidebar on the right.
     </div>
 
     <h3>🔑 License states</h3>
-    <p class="abtb_doc_section_intro">The tag next to the panel title shows the current state:</p>
+    <p class="abtb_doc_section_intro">The badge next to the card title shows the current state:</p>
     <table>
         <thead>
             <tr>
@@ -51,11 +51,11 @@
 
     <h3>🔑 Activating a license key</h3>
     <ol class="abtb_doc_steps">
-        <li><strong>Buy the license</strong> — Purchase Transport Booking Pro from the official <em>abp-wp.com</em> store and copy your key from the license section of your account.</li>
-        <li><strong>Open the License tab</strong> — Go to <em>ABP Transport Booking → License</em> in the WordPress admin.</li>
+        <li><strong>Buy the license</strong> — Purchase Transport Booking Pro from the official <em>abp-team.com</em> store and copy your key from the license section of your account.</li>
+        <li><strong>Open the Dashboard</strong> — Go to <em>ABP Transport Booking → Dashboard</em> in the WordPress admin and find the License card in the sidebar.</li>
         <li><strong>Enter the key</strong> — Paste the key (format <code>XXXXXXXX-XXXXXXXX-XXXXXXXX</code>) into the <em>License Key</em> field.</li>
         <li><strong>Activate</strong> — Click <em>Activate License</em>. The plugin contacts the license server and stores the license on your site.</li>
-        <li><strong>Confirm</strong> — A confirmation message appears and the panel switches to <em>Active</em>, showing the expiry date, activation date and the site the key is locked to.</li>
+        <li><strong>Confirm</strong> — A confirmation message appears and the card switches to <em>Active</em>, showing the expiry date, activation date and the site the key is locked to.</li>
     </ol>
 
     <div class="abtb_doc_callout abtb_doc_callout_warn">
@@ -67,7 +67,7 @@
 
     <h3>🔑 Deactivating a license key</h3>
     <ol class="abtb_doc_steps">
-        <li>Open <em>ABP Transport Booking → License</em>.</li>
+        <li>Open <em>ABP Transport Booking → Dashboard</em> and find the License card in the sidebar.</li>
         <li>Click <em>Deactivate License</em>. The stored key is removed from this site and the activation slot is freed.</li>
         <li>The site returns to the trial state (if trial time remains) for continued testing.</li>
     </ol>
@@ -77,7 +77,7 @@
         extra activation slot.
     </div>
 
-    <h3>⚙️ Panel fields</h3>
+    <h3>⚙️ Fields</h3>
     <table>
         <thead>
             <tr>
@@ -130,7 +130,7 @@
 
     <div class="abtb_doc_callout abtb_doc_callout_note">
         <strong>ℹ️ Trial behavior</strong>
-        When the site starts without a key, a <em>30-day</em> trial begins automatically. The panel shows the remaining
+        When the site starts without a key, a <em>30-day</em> trial begins automatically. The License card shows the remaining
         trial days, and once the trial is over (or the license expires) the E-mail and PDF features are disabled until a
         valid key is activated.
     </div>
