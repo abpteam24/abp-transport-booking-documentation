@@ -12,15 +12,12 @@
                 van, minibus, and other passenger transport services.
             </p>
         </div>
-
         <p class="abtb_doc_section_intro">
             The cards below group every feature of the plugin. Overarching capabilities such as the
             all-in-one transport booking dashboard and the transport management system apply across the whole plugin,
             while additional capabilities — marked <strong>PRO</strong> — are available in the paid version.
         </p>
-
         <div class="abtb_doc_cards">
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">📊</span>
@@ -32,7 +29,6 @@
                     <li>Transport management system</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🚌</span>
@@ -45,7 +41,6 @@
                     <li>Related transport display</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🛣️</span>
@@ -63,7 +58,6 @@
                     <li>Dynamic intermediate route allocation</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🔁</span>
@@ -77,7 +71,6 @@
                     <li>Return trip pricing and schedule configuration</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🎫</span>
@@ -90,7 +83,6 @@
                     <li>Reuse ticket types across multiple transports</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🪑</span>
@@ -104,7 +96,6 @@
                     <li>Clone, edit, view, and delete seat plans</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🎨</span>
@@ -124,7 +115,6 @@
                     <li>Decor item support</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">📡</span>
@@ -138,7 +128,6 @@
                     <li>Multi-layer seat availability</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">💰</span>
@@ -153,7 +142,6 @@
                     <li>Return trip pricing configuration</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🗓️</span>
@@ -168,7 +156,6 @@
                     <li>Availability override options</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">👤</span>
@@ -181,7 +168,6 @@
                     <li>Passenger information collection during booking</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🧰</span>
@@ -194,7 +180,6 @@
                     <li>Service pricing</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🌐</span>
@@ -215,7 +200,6 @@
                     <li>Global Terms &amp; Conditions</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">⚙️</span>
@@ -227,7 +211,6 @@
                     <li>Global feature enable/disable controls</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">📦</span>
@@ -243,7 +226,6 @@
                     <li>WooCommerce order integration</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🌍</span>
@@ -266,7 +248,21 @@
                     <li>Responsive booking interface</li>
                 </ul>
             </div>
-
+            <div class="abtb_doc_card">
+                <div class="abtb_doc_card_head">
+                    <span class="abtb_doc_card_icon">🔍</span>
+                    <h3>Frontend Taxonomy Filter Bar</h3>
+                </div>
+                <ul>
+                    <li>Category filter dropdown with an on/off toggle</li>
+                    <li>Brand filter dropdown with an on/off toggle</li>
+                    <li>Organizer filter dropdown with an on/off toggle</li>
+                    <li>Location (stop) filter dropdown with an on/off toggle</li>
+                    <li>Filters appear as a toolbar above the transport listing</li>
+                    <li>Each filter can be independently enabled or disabled</li>
+                    <li>Works with the [abptb-booking] and [abptb-post] shortcodes</li>
+                </ul>
+            </div>
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">📋</span>
@@ -280,7 +276,6 @@
                     <li>Login required to view bookings</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">❓</span>
@@ -294,7 +289,6 @@
                     <li>Import and customize global configuration</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🛒</span>
@@ -307,7 +301,6 @@
                     <li>WooCommerce tax and coupon support</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🔗</span>
@@ -322,7 +315,6 @@
                     <li>Multiple layout styles</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">📱</span>
@@ -333,7 +325,6 @@
                     <li>Translation-ready</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card abtb_doc_card_wide">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">⭐</span>
@@ -341,7 +332,6 @@
                 </div>
                 <p class="abtb_doc_card_lead">The following capabilities are available in the PRO version:</p>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🛤️</span>
@@ -354,7 +344,6 @@
                     <li>Date-wise multiple trips</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">📄</span>
@@ -362,7 +351,6 @@
                     <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
                 </div>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">📤</span>
@@ -374,7 +362,6 @@
                     <li>CSV booking export</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🔳</span>
@@ -382,7 +369,6 @@
                     <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
                 </div>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">📧</span>
@@ -395,7 +381,6 @@
                     <li>Resend email with PDF</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🏷️</span>
@@ -407,7 +392,6 @@
                     <li>Early booking discounts</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">💰</span>
@@ -424,7 +408,6 @@
                     <li>Deposit paid and remaining balance stored on the order</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🗂️</span>
@@ -432,7 +415,6 @@
                     <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
                 </div>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">✏️</span>
@@ -448,7 +430,6 @@
                     <li>Live stock availability with own-booking stock excluded</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🧾</span>
@@ -465,7 +446,6 @@
                     <li>Approval cancels the booking and makes its seats/tickets available again</li>
                 </ul>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🛠️</span>
@@ -473,7 +453,6 @@
                     <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
                 </div>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">🎧</span>
@@ -481,7 +460,6 @@
                     <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
                 </div>
             </div>
-
             <div class="abtb_doc_card">
                 <div class="abtb_doc_card_head">
                     <span class="abtb_doc_card_icon">⚡</span>
@@ -489,7 +467,6 @@
                     <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span>
                 </div>
             </div>
-
         </div>
     </div>
 <?php

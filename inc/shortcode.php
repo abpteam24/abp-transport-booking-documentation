@@ -88,7 +88,33 @@
             </tbody>
         </table>
 
-        <h3>📋 Listing Shortcode</h3>
+        <p class="abtb_doc_section_intro">
+             When a listing shortcode is rendered, ABP Transport Booking also fires the 
+             <code>abptb_post_filter</code> action just above the list. That action loads the 
+             <strong>Frontend Taxonomy Filter Bar</strong> (see the Features guide). The bar shows 
+             Category, Brand, Organizer and Location dropdowns; each one is shown only when its 
+             on/off toggle is enabled in the shortcode defaults, so the visitor sees exactly the 
+             filters they are allowed to use. Selecting a value filters the transports on the page.
+         </p>
+<h3>🔍 Frontend Taxonomy Filter Bar</h3>
+<p class="abtb_doc_section_intro">
+             When a listing shortcode is rendered, ABP Transport Booking also shows a toolbar of filter dropdowns just above the transport list. Each dropdown (Category, Brand, Organizer, Location) can be independently turned on or off.
+         </p>
+<table>
+     <thead>
+         <tr><th>Parameter</th><th>Description</th><th>Default</th></tr>
+     </thead>
+     <tbody>
+         <tr><td><code>category</code></td><td>Toggle the Category dropdown on/off.</td><td><code>&quot;on&quot;</code></td></tr>
+         <tr><td><code>brand</code></td><td>Toggle the Brand dropdown on/off.</td><td><code>&quot;off&quot;</code></td></tr>
+         <tr><td><code>organizer</code></td><td>Toggle the Organizer dropdown on/off.</td><td><code>&quot;off&quot;</code></td></tr>
+         <tr><td><code>location</code></td><td>Toggle the Location/Stops dropdown on/off.</td><td><code>&quot;on&quot;</code></td></tr>
+     </tbody>
+</table>
+<p class="abtb_doc_callout abtb_doc_callout_note">
+     <strong>💡 Tip:</strong> set any of these to a value other than <code>&quot;on&quot;</code> (e.g. <code>&quot;&quot;</code> or <code>&quot;off&quot;</code>) to hide that filter from the frontend.
+</p>
+<h3>📋 Listing Shortcode</h3>
         <p class="abtb_doc_section_intro">
             The <code>[abptb-post]</code> shortcode displays a transport listing anywhere on your website. It is useful for
             creating dedicated transport listing pages with different layouts and filtering options. You can display all

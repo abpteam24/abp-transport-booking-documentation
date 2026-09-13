@@ -290,4 +290,9 @@
 
     $(function () { init(); });
     $(window).on("load", function () { init(); });
+
+    // Print support: click the header print button to open the print dialog.
+    $("body").on("click", "#abtb-doc-print", function () {
+        window.print();
+    });
 })(jQuery);

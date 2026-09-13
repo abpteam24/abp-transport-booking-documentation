@@ -233,6 +233,7 @@ if (!class_exists('ABTB_Documentation')) {
                                    placeholder="<?php esc_attr_e('Search documentation…', 'abptb_documentation'); ?>"
                                    aria-label="<?php esc_attr_e('Search documentation', 'abptb_documentation'); ?>" />
                             <button type="button" class="abtb_doc_search_clear" aria-label="<?php esc_attr_e('Clear search', 'abptb_documentation'); ?>">✕</button>
+                    <button type="button" id="abtb-doc-print" class="abtb_doc_print" aria-label="<?php esc_attr_e('Print this page', 'abptb_documentation'); ?>">🖨️ <?php esc_html_e('Print', 'abptb_documentation'); ?></button>
                         </div>
                     </div>
 
