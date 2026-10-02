@@ -12,9 +12,6 @@
  * Domain Path:       /languages
  * Requires at least: 6.0
  * Requires PHP:      7.4
- * Requires Plugins:  abp-transport-booking
- * WC requires at least: 8.0.0
- * WC tested up to:   latest
  */
 
 if (!defined('ABSPATH')) {
@@ -40,23 +37,6 @@ if (!class_exists('ABTB_Documentation')) {
         private bool $rendered = false;
 
         public function __construct() {
-            add_action( 'admin_init', function () {
-					if ( ! function_exists( 'is_plugin_active' ) ) {
-						require_once ABSPATH . 'wp-admin/includes/plugin.php';
-					}
-				} );
-				add_action(
-					'before_woocommerce_init', // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
-					function () {
-						if ( class_exists( '\Automattic\WooCommerce\Utilities\FeaturesUtil' ) ) {
-							\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility(
-								'custom_order_tables',
-								__FILE__,
-								true
-							);
-						}
-					}
-				);
             add_shortcode('abptb-documentation', array($this, 'do_documentation'));
             add_action('wp', array($this, 'maybe_enqueue_assets'));
         }
@@ -207,16 +187,9 @@ if (!class_exists('ABTB_Documentation')) {
             $sections    = $this->get_sections();
             $first_sec   = $sections[0];
             $first_id    = isset($first_sec['tabs']) ? $first_sec['tabs'][0]['id'] : $first_sec['id'];
-            $base_active = class_exists('ABPTB') || class_exists('ABPTB_Static');
             ?>
             <div class="abtb_doc" id="abtb-documentation">
                 <div class="abtb_doc_container">
-                    <?php if (!$base_active) : ?>
-                        <div class="abtb_doc_alert" style="margin:18px 18px 0;padding:12px 16px;border-radius:8px;background:#fff7ed;border:1px solid #fdba74;color:#9a3412;">
-                            ⚠️ <?php esc_html_e('The ABP Transport Booking plugin is not active. This documentation is designed to be used with it — it still renders standalone with all screenshots and guides included.', 'abptb_documentation'); ?>
-                        </div>
-                    <?php endif; ?>
-
                     <div class="abtb_doc_header">
                         <div class="abtb_doc_brand">
                             <h1 class="abtb_doc_title">
