@@ -6,7 +6,7 @@
         <div class="abtb_doc_page_head">
             <h2>📍 Global Location &amp; Stop Management</h2>
             <p class="abtb_doc_lede">
-                The <strong>Global Location &amp; Stop Management</strong> screen under the <em>Global Data</em> tab lets
+                The <strong>Global Location &amp; Stop Management</strong> screen under the <em>Global Configuration</em> tab lets
                 you create reusable transport locations and stops. Create a location once, then assign it to any
                 transport route as a pickup, drop-off, boarding, or intermediate stop. Changes to a global location are
                 automatically reflected across all routes and transports where it is used.
@@ -21,7 +21,7 @@
 
         <h3>🔍 Location-Based Transport Listing</h3>
         <p class="abtb_doc_section_intro">
-            The <code>[abptb_list]</code> shortcode supports location-based transport filtering. Pass a location ID to
+            The <code>[abptb-post]</code> shortcode supports location-based transport filtering. Pass a location ID to
             display only the transports available at that location.
         </p>
         <table>

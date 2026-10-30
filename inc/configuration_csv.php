@@ -163,7 +163,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><strong>Client Info</strong></td>
+                    <td><strong>Passenger Information</strong></td>
                     <td>Include general customer/client information in the exported CSV file.</td>
                     <td>ON</td>
                 </tr>

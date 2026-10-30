@@ -124,40 +124,32 @@ if (!class_exists('ABTB_Documentation')) {
                 $this->tab('abptb_create_order', __('Add Order', 'abptb_documentation'), 'fas fa-cart-plus', 'add_order.php', true, 'add order create pro'),
                 $this->tab('abptb_cancel_request', __('Cancel Requests', 'abptb_documentation'), 'fas fa-ban', 'cancel_request.php', true, 'cancel request approve reject pending pro'),
                 array(
-                    'id'       => 'global',
-                    'label'    => __('Global Data', 'abptb_documentation'),
-                    'icon'     => 'fas fa-globe',
-                    'overview' => 'abptb_global_data',
+                    'id'       => 'configuration',
+                    'label'    => __('Global Configuration', 'abptb_documentation'),
+                    'icon'     => 'fas fa-gear',
+                    'overview' => 'abptb_configuration',
                     'tabs'     => array(
-                        $this->tab('abptb_global_data', __('Global Data Overview', 'abptb_documentation'), 'fas fa-globe', 'global_data.php', false, 'global reusable centralized'),
+                        $this->tab('abptb_configuration', __('Overview', 'abptb_documentation'), 'fas fa-gear', 'configuration.php', false, 'global configuration setting label slug woocommerce'),
+                        $this->tab('abptb_global_data', __('Reusable Data', 'abptb_documentation'), 'fas fa-globe', 'global_data.php', false, 'global reusable centralized shared'),
+                        $this->tab('abptb_on_off', __('On / Off Features', 'abptb_documentation'), 'fa-solid fa-toggle-on', 'configuration_on_off.php', false, 'feature on off toggle'),
                         $this->tab('abptb_date_global', __('Dates', 'abptb_documentation'), 'fas fa-calendar-day', 'global_date.php', false, 'global date format buffer advance'),
-                        $this->tab('abptb_additional_global', __('Additional services', 'abptb_documentation'), '💰', 'global_additional.php', false, 'global additional service'),
+                        $this->tab('abptb_additional_global', __('Additional Services', 'abptb_documentation'), '💰', 'global_additional.php', false, 'global additional service'),
                         $this->tab('abptb_client_form_global', __('Client Form', 'abptb_documentation'), '📋', 'global_client_form.php', false, 'global client form'),
-                        $this->tab('abptb_global_discount', __('Global Discount', 'abptb_documentation'), '✂️', 'global_discount.php', true, 'global discount seasonal early bird pro'),
-                        $this->tab('abptb_pp_global', __('Partial Payment', 'abptb_documentation'), '💰', 'global_partial_payment.php', true, 'partial payment deposit advance balance due pro'),
+                        $this->tab('abptb_pdf', __('PDF', 'abptb_documentation'), 'fas fa-ticket-alt', 'configuration_pdf.php', true, 'pdf config pro background logo'),
+                        $this->tab('abptb_booking_pdf', __('Order Lists PDF', 'abptb_documentation'), 'far fa-file-alt', 'configuration_order_list.php', true, 'order list pdf pro'),
+                        $this->tab('abptb_csv', __('Order Lists CSV', 'abptb_documentation'), 'fas fa-file-csv', 'configuration_csv.php', true, 'csv export order list pro'),
+                        $this->tab('abptb_email', __('E-Mail', 'abptb_documentation'), 'far fa-envelope', 'configuration_email.php', true, 'email notification pdf shortcode pro'),
                         $this->tab('abptb_location_global', __('Stops / Locations', 'abptb_documentation'), 'fas fa-route', 'global_location.php', false, 'global stop location loc_id'),
                         $this->tab('abptb_category_global', __('Transport Type / Category', 'abptb_documentation'), 'fas fa-boxes-stacked', 'global_category.php', false, 'global category transport type cat_id'),
                         $this->tab('abptb_organizer_global', __('Organizer', 'abptb_documentation'), '🏢', 'global_organizer.php', false, 'global organizer company operator org_id'),
                         $this->tab('abptb_brand_global', __('Brands', 'abptb_documentation'), '🏷️', 'global_brand.php', false, 'global brand brand_id'),
                         $this->tab('abptb_feature_global', __('Features Library', 'abptb_documentation'), '🔗', 'global_feature.php', false, 'global feature library'),
-                        $this->tab('abptb_resource_global', __('Global Resources', 'abptb_documentation'), '📚', 'global_resource.php', false, 'global resource faq terms condition'),
-                    ),
-                ),
-                array(
-                    'id'       => 'configuration',
-                    'label'    => __('Configuration', 'abptb_documentation'),
-                    'icon'     => 'fas fa-gear',
-                    'overview' => 'abptb_configuration',
-                    'tabs'     => array(
-                        $this->tab('abptb_configuration', __('Configuration Overview', 'abptb_documentation'), 'fas fa-gear', 'configuration.php', false, 'global configuration woocommerce'),
-                        $this->tab('abptb_pdf', __('PDF', 'abptb_documentation'), 'fas fa-ticket-alt', 'configuration_pdf.php', true, 'pdf config pro background logo'),
-                        $this->tab('abptb_booking_pdf', __('Order Lists PDF', 'abptb_documentation'), 'far fa-file-alt', 'configuration_order_list.php', true, 'order list pdf pro'),
-                        $this->tab('abptb_csv', __('Order Lists CSV', 'abptb_documentation'), 'fas fa-file-csv', 'configuration_csv.php', true, 'csv export order list pro'),
-                        $this->tab('abptb_email', __('E-Mail', 'abptb_documentation'), 'far fa-envelope', 'configuration_email.php', true, 'email notification pdf shortcode pro'),
-                        $this->tab('abptb_on_off', __('On / Off Features', 'abptb_documentation'), 'fa-solid fa-toggle-on', 'configuration_on_off.php', false, 'feature on off toggle'),
-                        $this->tab('abptb_slider', __('Slider', 'abptb_documentation'), 'fas fa-photo-video', 'configuration_slider.php', false, 'slider'),
+                        $this->tab('abptb_resource_global', __('Resources', 'abptb_documentation'), '📚', 'global_resource.php', false, 'global resource faq terms condition'),
+                        $this->tab('abptb_slider', __('Slider', 'abptb_documentation'), 'fas fa-photo-video', 'configuration_slider.php', false, 'slider gallery'),
                         $this->tab('abptb_contact', __('Contact Information', 'abptb_documentation'), 'fas fa-id-card-alt', 'configuration_contact.php', false, 'contact company address phone email'),
                         $this->tab('abptb_css_value', __('CSS Property', 'abptb_documentation'), 'fas fa-drafting-compass', 'configuration_css.php', false, 'css color font size'),
+                        $this->tab('abptb_global_discount', __('Global Discount', 'abptb_documentation'), '✂️', 'global_discount.php', true, 'global discount seasonal early bird pro'),
+                        $this->tab('abptb_pp_global', __('Partial Payment', 'abptb_documentation'), '💰', 'global_partial_payment.php', true, 'partial payment deposit advance balance due pro'),
                     ),
                 ),
                 $this->tab('abptb_my_account', __('My Account', 'abptb_documentation'), 'fas fa-user', 'my_account.php', false, 'my account customer bookings download pdf cancel request pro'),
@@ -197,7 +189,7 @@ if (!class_exists('ABTB_Documentation')) {
                                 <span class="abtb_doc_chip">v<?php echo esc_html(ABPTB_DOC_VERSION); ?></span>
                             </h1>
                             <p class="abtb_doc_subtitle">
-                                <?php esc_html_e('Free + PRO user guide — setup, configuration, booking workflow, orders, global data, shortcodes and templates.', 'abptb_documentation'); ?>
+                                <?php esc_html_e('Free + PRO user guide — setup, configuration, booking workflow, orders, global configuration, shortcodes and templates.', 'abptb_documentation'); ?>
                             </p>
                         </div>
                         <div class="abtb_doc_search">

@@ -168,7 +168,7 @@
                     <td>ON</td>
                 </tr>
                 <tr>
-                    <td><strong>Client Info</strong></td>
+                    <td><strong>Passenger Information</strong></td>
                     <td>Include general customer/client information in the generated Booking PDF.</td>
                     <td>ON</td>
                 </tr>

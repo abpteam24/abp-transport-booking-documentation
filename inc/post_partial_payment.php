@@ -1,3 +1,7 @@
+<?php
+	if ( ! defined( 'ABSPATH' ) ) {
+		exit; // Exit if accessed directly
+	} ?>
 <div class="abtb_doc_panel" data-tabs="#abptb_pp_post">
 	<div class="abtb_doc_page_head">
 		<h2>💰 Partial Payment Configuration (PRO)</h2>
@@ -43,7 +47,7 @@
 	<h3>🌐 Global Fallback</h3>
 	<p class="abtb_doc_section_intro">
 		If the transport switch is ON but no valid type/value is saved for the transport, the global Partial
-		Payment configuration set under <em>Global Data → Partial Payment</em> is used automatically. If neither
+		Payment configuration set under <em>Global Configuration → Partial Payment</em> is used automatically. If neither
 		a transport-level nor a global value is available, the full amount is charged.
 	</p>
 

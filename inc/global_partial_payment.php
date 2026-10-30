@@ -1,8 +1,12 @@
+<?php
+	if ( ! defined( 'ABSPATH' ) ) {
+		exit; // Exit if accessed directly
+	} ?>
 <div class="abtb_doc_panel" data-tabs="#abptb_pp_global">
 	<div class="abtb_doc_page_head">
 		<h2>💰 Global Partial Payment Configuration (PRO)</h2>
 		<p class="abtb_doc_lede">
-			The <strong>Partial Payment</strong> screen under the <em>Global Data</em> tab defines the website-wide
+			The <strong>Partial Payment</strong> screen under the <em>Global Configuration</em> tab defines the website-wide
 			default deposit for transport bookings. It is used automatically for every transport that enables
 			<em>Pay Partial Amount at Checkout?</em> without its own transport-level type and value.
 		</p>
@@ -17,8 +21,8 @@
 	<div class="abtb_doc_callout abtb_doc_callout_note">
 		<strong>ℹ️ Feature switch</strong>
 		The whole Partial Payment feature is controlled by the <strong>Partial Payment</strong> switch under
-		<em>Configuration → On / Off Features</em> (default <strong>ON</strong>). Turn this switch OFF to
-		completely disable Partial Payment site-wide and hide the Global Data and transport settings for it.
+		<em>Global Configuration → On / Off Features</em> (default <strong>ON</strong>). Turn this switch OFF to
+		completely disable Partial Payment site-wide and hide the global and per-transport settings for it.
 	</div>
 
 	<h3>🧮 Global Partial Payment Settings</h3>

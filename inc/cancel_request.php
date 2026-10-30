@@ -1,3 +1,7 @@
+<?php
+	if ( ! defined( 'ABSPATH' ) ) {
+		exit; // Exit if accessed directly
+	} ?>
 <div class="abtb_doc_panel" data-tabs="#abptb_cancel_request">
 	<div class="abtb_doc_page_head">
 		<h2>🚫 Cancel Requests</h2>
@@ -10,7 +14,7 @@
 
 	<p class="abtb_doc_section_intro">
 		The <strong>Cancel Requests</strong> menu tab appears in the main admin menu (between <em>Add Order</em>
-		and <em>Global Data</em>) only when <strong>Transport Booking Pro</strong> is active. The menu label shows
+		and <em>Global Configuration</em>) only when <strong>Transport Booking Pro</strong> is active. The menu label shows
 		the number of pending requests in a badge.
 	</p>
 
@@ -76,6 +80,6 @@
 	<div class="abtb_doc_callout abtb_doc_callout_note">
 		<strong>ℹ️ PRO feature</strong>
 		Cancel Requests is part of Transport Booking Pro and only appears when PRO is active and the
-		<em>Customer Cancel Request</em> feature switch (Configuration → On/Off Features) is enabled.
+		<em>Customer Cancel Request</em> feature switch (Global Configuration → On/Off Features) is enabled.
 	</div>
 </div>

@@ -1,3 +1,7 @@
+<?php
+	if ( ! defined( 'ABSPATH' ) ) {
+		exit; // Exit if accessed directly
+	} ?>
 <div class="abtb_doc_panel" data-tabs="#abptb_my_account">
 	<div class="abtb_doc_page_head">
 		<h2>👤 Customer My Account — Transport Bookings</h2>
@@ -71,11 +75,11 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>Configuration → On/Off Features</td>
+				<td>Global Configuration → On/Off Features</td>
 				<td><strong>Customer Cancel Request</strong> switch turns the feature on or off site-wide.</td>
 			</tr>
 			<tr>
-				<td>Global Data → <strong>Cancel Request</strong> (new tab)</td>
+				<td>Global Configuration → <strong>Cancel Request</strong> (new tab)</td>
 				<td>Set how long before the journey starts a request can still be sent, in <em>Hours</em> or
 					<em>Days</em> (default 24 hours). The customer sees the button only while the journey starts
 					more than this limit away.</td>

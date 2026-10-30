@@ -4,9 +4,9 @@
 	} ?>
     <div class="abtb_doc_panel" data-tabs="#abptb_global_data">
         <div class="abtb_doc_page_head">
-            <h2>🌐 Global Data Configuration</h2>
+            <h2>🌐 Reusable Global Data</h2>
             <p class="abtb_doc_lede">
-                The Global Data Configuration system provides a centralized place to manage reusable data and common
+                The <strong>Global Configuration</strong> tab gives you a centralized place to manage reusable data and common
                 settings for the Transport Booking system. Instead of configuring the same information repeatedly for
                 individual transports, you can define commonly used data globally and reuse it throughout your
                 transport booking operations.
@@ -27,11 +27,11 @@
             <li>Maintain consistent information throughout the booking system</li>
         </ul>
 
-        <h3>⚙️ Available Global Data</h3>
+        <h3>⚙️ Available Reusable Data</h3>
         <table>
             <thead>
                 <tr>
-                    <th>Global data</th>
+                    <th>Reusable data</th>
                     <th>Description</th>
                 </tr>
             </thead>
@@ -85,7 +85,7 @@
 
         <h3>🔄 Reusable Configuration</h3>
         <p class="abtb_doc_section_intro">
-            Global data can be reused when configuring individual transports, allowing you to quickly apply previously
+            Reusable data can be reused when configuring individual transports, allowing you to quickly apply previously
             configured information instead of creating the same data repeatedly.
         </p>
         <ul>

@@ -6,7 +6,7 @@
         <div class="abtb_doc_page_head">
             <h2>🏘️ Global Transport Type / Category</h2>
             <p class="abtb_doc_lede">
-                The <strong>Global Transport Type / Category</strong> screen under the <em>Global Data</em> tab lets you
+                The <strong>Global Transport Type / Category</strong> screen under the <em>Global Configuration</em> tab lets you
                 create, edit, and delete transport types or categories. Each type includes a name, optional slug, and
                 optional description, and a shortcode that can be used to display transports of that type.
             </p>

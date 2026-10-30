@@ -6,7 +6,7 @@
         <div class="abtb_doc_page_head">
             <h2>🏢 Global Organizer Configuration</h2>
             <p class="abtb_doc_lede">
-                The <strong>Global Organizer</strong> screen under the <em>Global Data</em> tab lets you create, edit,
+                The <strong>Global Organizer</strong> screen under the <em>Global Configuration</em> tab lets you create, edit,
                 and delete organizers, operators, or companies. Each organizer includes a name, optional slug, and
                 optional description, and a shortcode that can be used to display transports from a specific organizer.
             </p>

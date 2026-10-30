@@ -6,7 +6,7 @@
 		<div class="abtb_doc_page_head">
 			<h2>✂️ Global Discount Configuration (PRO)</h2>
 			<p class="abtb_doc_lede">
-				The <strong>Global Discount Configuration</strong> screen under the <em>Global Data</em> tab lets you
+				The <strong>Global Discount Configuration</strong> screen under the <em>Global Configuration</em> tab lets you
 				enable and manage Seasonal Discount and Early Bird Discount rules across the entire website. When no
 				transport-level discount pricing is configured, the applicable global discount is used automatically.
 			</p>

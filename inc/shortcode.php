@@ -42,7 +42,7 @@
             <tbody>
                 <tr>
                     <td><code>style</code></td>
-                    <td>Layout style of the transport listing. Options: <code>grid</code>, <code>list</code>, <code>masonry</code>. Example: <code>[abptb-booking style="list"]</code></td>
+                    <td>Layout style of the transport listing. Options: <code>grid</code>, <code>missionary</code>. Example: <code>[abptb-booking style="missionary"]</code></td>
                     <td>grid</td>
                 </tr>
                 <tr>
@@ -131,7 +131,7 @@
             <tbody>
                 <tr>
                     <td><code>style</code></td>
-                    <td>Layout style of the transport listing. Options: <code>grid</code>, <code>list</code>, <code>masonry</code>. Example: <code>[abptb-post style="list"]</code></td>
+                    <td>Layout style of the transport listing. Options: <code>grid</code>, <code>missionary</code>. Example: <code>[abptb-post style="missionary"]</code></td>
                     <td>grid</td>
                 </tr>
                 <tr>
@@ -177,7 +177,7 @@
             </tbody>
         </table>
 
-        <h3>🎫 Ticket Retrieval Shortcode</h3>
+        <h3>🎫 Ticket Retrieval Shortcode <span class="abtb_doc_badge abtb_doc_badge_pro">PRO</span></h3>
         <p class="abtb_doc_section_intro">
             The <code>[abptb-ticket]</code> shortcode lets customers securely retrieve their booking and ticket information
             using their Order ID or Ticket PIN. Customers can view booking details and download the corresponding ticket

@@ -6,8 +6,10 @@
         <div class="abtb_doc_page_head">
             <h2>⚙️ Global Configuration</h2>
             <p class="abtb_doc_lede">
-                Global Configuration allows you to define the default settings for your entire Transport Booking
-                system. These settings control common system behavior, booking options, labels, URLs, and other shared
+                The <strong>Global Configuration</strong> tab is a single combined screen. It defines the default
+                settings for your entire Transport Booking system and also holds the reusable global data (dates,
+                stops, categories, organizers, brands, features, additional services, client form and resources).
+                These settings control common system behavior, booking options, labels, URLs, and other shared
                 configurations used throughout the transport booking platform.
             </p>
         </div>
@@ -22,8 +24,9 @@
         <h3>🖥️ The configuration dashboard</h3>
         <p class="abtb_doc_section_intro">
             After activating Transport Booking and completing the initial setup, you will see the Global Configuration
-            dashboard. From this centralized location you can configure system-wide settings, booking behavior,
-            transport-related options, labels, URLs, and other essential settings at a glance.
+            tab. From this single centralized location you can manage the reusable global data as well as configure
+            system-wide settings, booking behavior, transport-related options, labels, URLs, and other essential
+            settings at a glance.
         </p>
     </div>
 <?php

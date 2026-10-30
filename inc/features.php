@@ -440,7 +440,7 @@
                 <ul>
                     <li>Download the PDF ticket/invoice button for each booked booking</li>
                     <li>&quot;Request Cancellation&quot; button on a customer's booking</li>
-                    <li>Request allowed only within the time limit set under Global Data → Cancel Request</li>
+                    <li>Request allowed only within the time limit set under Global Configuration → Cancel Request</li>
                     <li>&quot;Cancel Request Pending&quot; status badge while waiting</li>
                     <li>Admin approves or rejects requests from the Order List Cancel Requests tab</li>
                     <li>Approval cancels the booking and makes its seats/tickets available again</li>

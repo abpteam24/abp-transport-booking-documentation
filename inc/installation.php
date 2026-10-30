@@ -81,11 +81,11 @@
             After the plugins are active, configure them in this order so everything has the data it needs:
         </p>
         <ol class="abtb_doc_steps">
-            <li>Go to <strong>ABP Transport Booking → Configuration</strong> and set the <strong>transport
+            <li>Go to <strong>ABP Transport Booking → Global Configuration</strong> and set the <strong>transport
                 label</strong>, store name and general settings.</li>
-            <li>Go to <strong>Global Data → Dates</strong> and set the global date format, buffer and advance-booking
+            <li>In the same <strong>Global Configuration</strong> tab open <strong>Dates</strong> and set the global date format, buffer and advance-booking
                 window.</li>
-            <li>Create reusable <strong>Stops / Locations</strong> (Global Data) — boarding and drop-off points.</li>
+            <li>Create reusable <strong>Stops / Locations</strong> (Global Configuration) — boarding and drop-off points.</li>
             <li>Create <strong>Ticket types</strong> and/or <strong>Seat plans</strong> under
                 <strong>Ticket/Seat Plan</strong> that the transports will reuse.</li>
             <li>Open <strong>Lists → Add New</strong> to create your first transport.</li>
@@ -93,12 +93,12 @@
                 in order (the tabs run left to right).</li>
             <li><strong>Publish</strong> the transport and place a test booking through the WooCommerce checkout to
                 confirm tickets and seats work.</li>
-            <li>(PRO) Return to <strong>Configuration → PDF</strong> to set the ticket logo, colors and download
+            <li>(PRO) Return to <strong>Global Configuration → PDF</strong> to set the ticket logo, colors and download
                 permissions.</li>
         </ol>
         <div class="abtb_doc_callout abtb_doc_callout_tip">
             <strong>💡 Recommended order of work</strong>
-            Global data first (Stops, Ticket types, Seat plans, Categories) → then transports (Lists) → then
+            Global configuration first (Stops, Ticket types, Seat plans, Categories) → then transports (Lists) → then
             Orders/Bookings. This way every transport can reuse already-created global data.
         </div>
 

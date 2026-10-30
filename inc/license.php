@@ -1,3 +1,7 @@
+<?php
+    if (!defined('ABSPATH')) {
+        exit; // Exit if accessed directly
+    } ?>
 <div class="abtb_doc_panel" data-tabs="#abptb_license">
     <div class="abtb_doc_page_head">
         <h2>🔑 License Management</h2>

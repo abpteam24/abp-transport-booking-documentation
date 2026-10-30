@@ -6,7 +6,7 @@
         <div class="abtb_doc_page_head">
             <h2>💰 Global Additional Services</h2>
             <p class="abtb_doc_lede">
-                The <strong>Global Additional Services</strong> screen under the <em>Global Data</em> tab lets you create a
+                The <strong>Global Additional Services</strong> screen under the <em>Global Configuration</em> tab lets you create a
                 reusable library of extra services, products, or equipment. These services can be imported into any
                 transport post and also serve as the site-wide global default.
             </p>

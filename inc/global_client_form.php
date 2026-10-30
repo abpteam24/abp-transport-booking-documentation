@@ -6,7 +6,7 @@
         <div class="abtb_doc_page_head">
             <h2>📋 Global Client Form</h2>
             <p class="abtb_doc_lede">
-                The <strong>Global Client Form</strong> screen under the <em>Global Data</em> tab lets you build a
+                The <strong>Global Client Form</strong> screen under the <em>Global Configuration</em> tab lets you build a
                 reusable client information form. Once the form structure is defined here, it can be imported into any
                 transport post or used as the site-wide default.
             </p>

@@ -6,7 +6,7 @@
         <div class="abtb_doc_page_head">
             <h2>📅 Global Date Configuration</h2>
             <p class="abtb_doc_lede">
-                The <strong>Global Date Configuration</strong> screen under the <em>Global Data</em> tab lets you define
+                The <strong>Global Date Configuration</strong> screen under the <em>Global Configuration</em> tab lets you define
                 the date format, time format, buffer time, advance-booking window, and full operational schedule for
                 every transport post. These settings can be imported into individual transports and overridden per post
                 when needed.
