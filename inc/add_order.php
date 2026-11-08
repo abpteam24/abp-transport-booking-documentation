@@ -28,7 +28,7 @@
         This feature provides complete flexibility for transport businesses, allowing administrators to efficiently manage both online and offline bookings from a single centralized dashboard.
     </div>
 
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/add_order.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-admin-add-order.png">
         <img class="abtb_doc_screen_img" src="#" alt="Transport Booking Add Order Dashboard">
     </div>
 </div>

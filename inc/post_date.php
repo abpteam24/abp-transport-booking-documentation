@@ -136,10 +136,10 @@
             closed due to an off-date range or weekend rule.
         </div>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/date_priodic.png">
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-transport-date-periodic.png">
             <img class="abtb_doc_screen_img" src="#" alt="Periodic Date Configuration Overview">
         </div>
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/date_specific.png">
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-transport-date-specific.png">
             <img class="abtb_doc_screen_img" src="#" alt="Specific Date Configuration Overview">
         </div>
     </div>

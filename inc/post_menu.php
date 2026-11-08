@@ -65,6 +65,6 @@
             and other settings before publishing or updating.
         </p>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/screenshot-9.png"><img class="abtb_doc_screen_img" src="#" alt="Transport Lists Overview"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-transport-list-admin.png"><img class="abtb_doc_screen_img" src="#" alt="Transport Lists Overview"></div>
     </div>
 <?php

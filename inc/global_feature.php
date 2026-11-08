@@ -27,7 +27,7 @@
             <li><strong>Add a new feature</strong> — Use the <em>Add New Feature</em> option to create a new feature.</li>
         </ol>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/feature.png"><img class="abtb_doc_screen_img" src="#" alt="Feature List"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-feature-list.png"><img class="abtb_doc_screen_img" src="#" alt="Feature List"></div>
 
         <h3>🆕 Adding a new feature</h3>
         <ol class="abtb_doc_steps">
@@ -36,6 +36,7 @@
             <li><strong>Save the feature</strong> — Click <em>Save Feature</em> to store the new feature.</li>
         </ol>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/feature_add.png"><img class="abtb_doc_screen_img" src="#" alt="Add New Feature"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-feature-add.png"><img class="abtb_doc_screen_img" src="#" alt="Add New Feature"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-feature-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global Feature Configuration"></div>
     </div>
 <?php

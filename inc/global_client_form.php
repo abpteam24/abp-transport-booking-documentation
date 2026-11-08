@@ -64,6 +64,6 @@
             <li><strong>Save</strong> — Click <strong>Save Global Client Form Configuration</strong> to persist the configured form and make it available for reuse across transport posts.</li>
         </ol>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/screenshot-14.png"><img class="abtb_doc_screen_img" src="#" alt="Global Client Form Configuration"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-passenger-form-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global Client Form Configuration"></div>
     </div>
 <?php

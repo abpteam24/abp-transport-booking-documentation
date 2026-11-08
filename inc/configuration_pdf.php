@@ -62,6 +62,6 @@
             document reflects your identity from the start.
         </div>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/pdf.png"><img class="abtb_doc_screen_img" src="#" alt="PDF Configuration"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-ticket-pdf.png"><img class="abtb_doc_screen_img" src="#" alt="PDF Configuration"></div>
     </div>
 <?php

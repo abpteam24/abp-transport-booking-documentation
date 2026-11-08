@@ -120,6 +120,7 @@
 			</tbody>
 		</table>
 
-		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/css_value.png"><img class="abtb_doc_screen_img" src="#" alt="CSS Value "></div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-global-css.png"><img class="abtb_doc_screen_img" src="#" alt="CSS Value"></div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-global-css-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global CSS Configuration"></div>
 	</div>
 <?php

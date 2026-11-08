@@ -64,7 +64,7 @@
             <li>If no date-wise schedule is configured for a given date, the regular day-wise or default operation time is used.</li>
         </ul>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/time_config.png">
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-transport-time-config.png">
             <img class="abtb_doc_screen_img" src="#" alt="Time Configuration Overview">
         </div>
     </div>

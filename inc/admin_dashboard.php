@@ -61,7 +61,7 @@ if (!defined('ABSPATH')) {
     </ul>
     <h3>🖥️ System Status &amp; Content Breakdown</h3>
     <p class="abtb_doc_section_intro"> The sidebar also shows a <strong>System Status</strong> card with the current plugin, WordPress, PHP and WooCommerce versions, and a <strong>Content Breakdown</strong> card with quick counts of your content by type. With <strong>PRO</strong> installed, a license status card is added to the sidebar as well. </p>
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/dashboard.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-dashboard-welcome.png">
         <img class="abtb_doc_screen_img" src="#" alt="Transport Booking Add Order Dashboard">
     </div>
 </div>

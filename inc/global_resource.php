@@ -122,8 +122,14 @@
             <li>Improves transparency and booking compliance.</li>
         </ul>
 
-		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/global_resource.png">
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-resource.png">
 			<img class="abtb_doc_screen_img" src="#" alt="Global FAQ and Terms & Conditions Configuration Overview">
+		</div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-faq-config.png">
+			<img class="abtb_doc_screen_img" src="#" alt="Global FAQ Configuration">
+		</div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-term-conditions-config.png">
+			<img class="abtb_doc_screen_img" src="#" alt="Global Terms & Conditions Configuration">
 		</div>
 	</div>
 <?php

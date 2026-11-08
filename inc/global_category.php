@@ -23,7 +23,7 @@
             <li>Click <strong>Add New Transport Type</strong> to create a new category.</li>
         </ul>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/category.png"><img class="abtb_doc_screen_img" src="#" alt="Transport Type List"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-category-list.png"><img class="abtb_doc_screen_img" src="#" alt="Transport Type List"></div>
 
         <h3>➕ Adding a New Transport Type</h3>
         <ol class="abtb_doc_steps">
@@ -33,6 +33,7 @@
             <li><strong>Save</strong> — Click <strong>Save Transport Type</strong> to persist the new category.</li>
         </ol>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/category_add.png"><img class="abtb_doc_screen_img" src="#" alt="Add New Transport Type"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-category-add.png"><img class="abtb_doc_screen_img" src="#" alt="Add New Transport Type"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-transport-type-category-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global Transport Type / Category Configuration"></div>
     </div>
 <?php

@@ -45,6 +45,7 @@
 			</tbody>
 		</table>
 
-		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/contact_info.png"><img class="abtb_doc_screen_img" src="#" alt="Contact Information "></div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-global-contact-info.png"><img class="abtb_doc_screen_img" src="#" alt="Contact Information"></div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-global-contact-info-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global Contact Information Configuration"></div>
 	</div>
 <?php

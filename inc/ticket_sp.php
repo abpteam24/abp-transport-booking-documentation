@@ -101,7 +101,10 @@
         <li>Manage multiple seat plans from a centralized list.</li>
     </ul>
 
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/screenshot-11.png">
-        <img class="abtb_doc_screen_img" src="#" alt="Ticket and Seat Plan Configuration Overview">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-ticket-type-seat-plan-config.png">
+        <img class="abtb_doc_screen_img" src="#" alt="Ticket Type and Seat Plan Configuration">
+    </div>
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-seat-plan-design.png">
+        <img class="abtb_doc_screen_img" src="#" alt="Seat Plan Design">
     </div>
 </div>

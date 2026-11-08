@@ -111,6 +111,6 @@
             operational schedule.
         </p>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/screenshot-12.png"><img class="abtb_doc_screen_img" src="#" alt="Global Dates Configuration"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-date-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global Dates Configuration"></div>
     </div>
 <?php

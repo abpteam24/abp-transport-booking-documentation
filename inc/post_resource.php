@@ -88,7 +88,7 @@
         <li>Control visibility and acceptance requirements per transport.</li>
     </ul>
 
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/post_resource.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-transport-resource.png">
         <img class="abtb_doc_screen_img" src="#" alt="Terms & Conditions Configuration Overview">
     </div>
 </div>

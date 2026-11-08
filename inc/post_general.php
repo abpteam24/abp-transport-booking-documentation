@@ -84,7 +84,7 @@
             </tbody>
         </table>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/screenshot-20.png">
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-transport-general-config.png">
             <img class="abtb_doc_screen_img" src="#" alt="General Configuration Overview">
         </div>
     </div>

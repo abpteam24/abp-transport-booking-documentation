@@ -29,7 +29,7 @@
             <li><strong>Use the shortcode</strong> — Use the displayed <em>Shortcode</em> to show transports assigned to a specific brand.</li>
         </ol>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/brand.png"><img class="abtb_doc_screen_img" src="#" alt="Brand List"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-brand-list.png"><img class="abtb_doc_screen_img" src="#" alt="Brand List"></div>
 
         <h3>🆕 Adding a new brand</h3>
         <ol class="abtb_doc_steps">
@@ -39,6 +39,7 @@
             <li><strong>Save the brand</strong> — Click <em>Save Brand</em> to store the new brand.</li>
         </ol>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/brand_add.png"><img class="abtb_doc_screen_img" src="#" alt="Add New Brand"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-brand-add.png"><img class="abtb_doc_screen_img" src="#" alt="Add New Brand"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-brand-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global Brand Configuration"></div>
     </div>
 <?php

@@ -81,6 +81,6 @@
             <em>Save Changes</em> to regenerate your URL structure.
         </div>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/screenshot-18.png"><img class="abtb_doc_screen_img" src="#" alt="Transport Configuration"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-transport-global-config.png"><img class="abtb_doc_screen_img" src="#" alt="Transport Global Configuration"></div>
     </div>
 <?php

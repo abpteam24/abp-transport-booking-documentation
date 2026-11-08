@@ -68,6 +68,6 @@
             <li><strong>Save</strong> — Click <strong>Save Global Additional Services Configuration</strong> to persist all configured services and their settings.</li>
         </ol>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/screenshot-13.png"><img class="abtb_doc_screen_img" src="#" alt="Global Additional Services Configuration"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-additional-service-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global Additional Services Configuration"></div>
     </div>
 <?php

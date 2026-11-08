@@ -110,6 +110,6 @@
             </tbody>
         </table>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/email.png"><img class="abtb_doc_screen_img" src="#" alt="E-Mail"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-email-template.png"><img class="abtb_doc_screen_img" src="#" alt="E-Mail"></div>
     </div>
 <?php

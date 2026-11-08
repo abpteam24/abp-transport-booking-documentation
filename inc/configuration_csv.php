@@ -213,7 +213,7 @@
             create a cleaner and more focused CSV export.
         </div>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/csv.png">
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-booking-csv-export.png">
             <img class="abtb_doc_screen_img" src="#" alt="Transport Booking Order Lists CSV Configuration">
         </div>
     </div>

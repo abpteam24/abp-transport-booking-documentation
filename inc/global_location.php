@@ -53,7 +53,8 @@
             configurations and routes without duplicating data.
         </div>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/location_add.png"><img class="abtb_doc_screen_img" src="#" alt="Location Add"></div>
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/location_list.png"><img class="abtb_doc_screen_img" src="#" alt="Location List"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-location-add.png"><img class="abtb_doc_screen_img" src="#" alt="Location Add"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-location-list.png"><img class="abtb_doc_screen_img" src="#" alt="Location List"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-stops-location-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global Stops and Location Configuration"></div>
     </div>
 <?php

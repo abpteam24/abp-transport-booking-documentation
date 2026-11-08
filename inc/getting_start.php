@@ -31,6 +31,6 @@
             through the <a target="_blank" href="https://abp-team.com/support-desk/" rel="noopener">Support Page</a>.
         </div>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/transport_banner.jpeg"><img class="abtb_doc_screen_img" src="#" alt="Add New Feature"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-transport-banner.jpeg"><img class="abtb_doc_screen_img" src="#" alt="Add New Feature"></div>
     </div>
 <?php

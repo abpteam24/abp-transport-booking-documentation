@@ -138,6 +138,7 @@
 			</tbody>
 		</table>
 
-		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/on_off.png"><img class="abtb_doc_screen_img" src="#" alt="Transport Booking Feature On Off Configuration"></div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-feature-on-off-config.png"><img class="abtb_doc_screen_img" src="#" alt="Feature ON/OFF Configuration"></div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-feature-toggle-on-off.png"><img class="abtb_doc_screen_img" src="#" alt="Feature Toggle ON/OFF"></div>
 	</div>
 <?php

@@ -57,7 +57,7 @@
         Discount configuration is available only with Transport Booking Pro. The free version does not include seasonal or early bird discount settings.
     </div>
 
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/post_discount.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-transport-discount.png">
         <img class="abtb_doc_screen_img" src="#" alt="Discount Configuration Overview">
     </div>
 </div>

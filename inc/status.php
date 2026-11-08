@@ -82,6 +82,6 @@
             and optional addons can be configured according to your business requirements.
         </div>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/status.png"><img class="abtb_doc_screen_img" src="#" alt="Transport Booking Status & Information"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-booking-status.png"><img class="abtb_doc_screen_img" src="#" alt="Transport Booking Status & Information"></div>
     </div>
 <?php

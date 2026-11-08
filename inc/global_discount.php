@@ -92,6 +92,6 @@
 			settings along with their date ranges.
 		</p>
 
-		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/discount_global.png"><img class="abtb_doc_screen_img" src="#" alt="Global Discount Configuration"></div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-global-discount.png"><img class="abtb_doc_screen_img" src="#" alt="Global Discount Configuration"></div>
 	</div>
 <?php
