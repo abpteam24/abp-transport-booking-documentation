@@ -76,7 +76,7 @@
 			</tbody>
 		</table>
 
-		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-global-slider.png"><img class="abtb_doc_screen_img" src="#" alt="Global Slider"></div>
-		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-global-slider-config.png"><img class="abtb_doc_screen_img" src="#" alt="Global Slider Configuration"></div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>7.16-admin-global-slider-configuration.png"><img class="abtb_doc_screen_img" src="#" alt="Global Slider"></div>
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>7.16-admin-global-slider-configuration.png"><img class="abtb_doc_screen_img" src="#" alt="Global Slider Configuration"></div>
 	</div>
 <?php

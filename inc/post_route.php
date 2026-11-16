@@ -90,7 +90,7 @@
             </tbody>
         </table>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-transport-route-return-config.png">
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>2.3.0-admin-transport-route-configuration-without-return-trip.png">
             <img class="abtb_doc_screen_img" src="#" alt="Route Configuration Overview">
         </div>
     </div>

@@ -227,16 +227,16 @@
         luggage, or update billing details — all without deleting and re-creating the order.
     </div>
 
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/order_list_actions.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>3.0-admin-order-list-with-filter-and-pagination.png">
         <img class="abtb_doc_screen_img" src="#" alt="Order list row actions - PDF, Resend E-Mail and Edit buttons">
     </div>
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/order_edit_popup_ticket.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>3.0-admin-order-list-with-filter-and-pagination.png">
         <img class="abtb_doc_screen_img" src="#" alt="Edit Booking popup - ticket quantity mode">
     </div>
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/order_edit_popup_seat.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>3.0-admin-order-list-with-filter-and-pagination.png">
         <img class="abtb_doc_screen_img" src="#" alt="Edit Booking popup - seat plan mode">
     </div>
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/order_edit_save.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>3.0-admin-order-list-with-filter-and-pagination.png">
         <img class="abtb_doc_screen_img" src="#" alt="Edit Booking popup - saved confirmation">
     </div>
 

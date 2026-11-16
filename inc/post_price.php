@@ -56,7 +56,7 @@
 			</tbody>
 		</table>
 
-		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-transport-price-return-config.png">
+		<div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>2.4.1-admin-transport-price-configuration-without-return-route-with-single-ticket-type.png">
 			<img class="abtb_doc_screen_img" src="#" alt="Price Configuration Overview">
 		</div>
 	</div>

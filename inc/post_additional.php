@@ -94,7 +94,7 @@
         <li>Other Optional Transport Services</li>
     </ul>
 
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-global-additional-service.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>2.7.1-admin-transport-additional-configuration-use-global-additional.png">
         <img class="abtb_doc_screen_img" src="#" alt="Additional Services Configuration Overview">
     </div>
 </div>

@@ -30,6 +30,9 @@ if (!defined('ABPTB_DOC_URL')) {
 if (!defined('ABPTB_DOC_INC')) {
     define('ABPTB_DOC_INC', ABPTB_DOC_DIR . '/inc');
 }
+if (!defined('ABP_IMG_DIR')) {
+    define('ABP_IMG_DIR',  'https://abp-team.com/wp-content/uploads/abptb/');
+}
 
 if (!class_exists('ABTB_Documentation')) {
     class ABTB_Documentation {

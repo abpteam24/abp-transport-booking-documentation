@@ -110,7 +110,7 @@
             </tbody>
         </table>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-transport-ticket-type-config.png"><img class="abtb_doc_screen_img" src="#" alt="Ticket Configuration Overview"></div>
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-transport-seat-plan-layers-config.png"><img class="abtb_doc_screen_img" src="#" alt="Ticket Configuration Overview"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>2.2.1-admin-transport-seatplan-configuration-with-single-ticket-type.png"><img class="abtb_doc_screen_img" src="#" alt="Ticket Configuration Overview"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>2.2.3-admin-transport-ticket-configuration-with-multi-ticket-type.png"><img class="abtb_doc_screen_img" src="#" alt="Ticket Configuration Overview"></div>
     </div>
 <?php

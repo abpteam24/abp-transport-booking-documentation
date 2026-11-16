@@ -237,10 +237,10 @@
             order lists for transport operators, booking managers, and administrative purposes.
         </div>
 
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-order-list-pdf.png">
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>3.0-admin-order-list-with-filter-and-pagination.png">
             <img class="abtb_doc_screen_img" src="#" alt="Order List PDF Configuration">
         </div>
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/section-order-list-filter-admin.png">
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>7.6-admin-global-order-list-pdf-view-configuration.png">
             <img class="abtb_doc_screen_img" src="#" alt="Order List and Filter - Admin View">
         </div>
     </div>

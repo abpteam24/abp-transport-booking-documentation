@@ -92,7 +92,7 @@
         <li>Remove unnecessary fields from the transport-level form.</li>
     </ul>
 
-    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABPTB_DOC_URL . '/' ) ?>image/section-global-passenger-form.png">
+    <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>2.8.1-admin-transport-passenger-form-configuration-use-global-passenger-forms-with-single-form.png">
         <img class="abtb_doc_screen_img" src="#" alt="Client Forms Configuration Overview">
     </div>
 </div>

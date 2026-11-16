@@ -197,6 +197,8 @@
             The <code>[abptb-gallery]</code> shortcode displays transport images in a gallery or slider layout anywhere on your
             website. You can show images for a specific transport or filter the gallery by category and location.
         </p>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>12.0-front-end-slider-view-gallery-style.png"><img class="abtb_doc_screen_img" src="#" alt="Gallery Style"></div>
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>12.1-front-end-slider-view-slider-style.png"><img class="abtb_doc_screen_img" src="#" alt="Slider Style"></div>
         <table>
             <thead>
                 <tr>

@@ -3,7 +3,7 @@
         exit; // Exit if accessed directly
     } ?>
     <div class="abtb_doc_panel" data-tabs="#abptb_menu_lists">
-        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url(ABPTB_DOC_URL . '/') ?>image/menu_overview.png">
+        <div class="abtb_doc_screen" data-abtb-doc-img="<?php echo esc_url( ABP_IMG_DIR ) ?>1.0-admin-dashboard.png">
             <img class="abtb_doc_screen_img" src="#" alt="menu overview">
         </div>
         <div class="abtb_doc_page_head">
